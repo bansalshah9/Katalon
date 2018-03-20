@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Test data automation project
+</description>
+   <name>TestdataAutomation</name>
+   <tag></tag>
+   <UUID>f8475a3a-1bb1-41cc-acbe-1a05b850358c</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

@@ -1,0 +1,159 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SNOW,Chrome 64.0.3282.186,,2018-03-15 15:18:36,2018-03-15 15:29:17,10m - 40.934s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/apttus11,Chrome 64.0.3282.186,,2018-03-15 15:18:37,2018-03-15 15:26:44,8m - 6.243s,FAILED
+openBrowser,Chrome 64.0.3282.186,,2018-03-15 15:18:39,2018-03-15 15:18:46,7.240s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-15 15:18:46,2018-03-15 15:18:47,1.220s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-15 15:18:47,2018-03-15 15:19:06,19.003s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:19:06,2018-03-15 15:19:18,12.059s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:19:18,2018-03-15 15:19:18,0.324s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:19:18,2018-03-15 15:19:19,0.246s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:19:19,2018-03-15 15:19:36,17.184s,PASSED
+"Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Quote Page (11)/div_Draft), ""class"")",Chrome 64.0.3282.186,,2018-03-15 15:19:36,2018-03-15 15:19:36,0.486s,PASSED
+"Statement - verifttrue = attribute.contains(""select"")",Chrome 64.0.3282.186,,2018-03-15 15:19:36,2018-03-15 15:19:36,0.001s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:19:36,2018-03-15 15:19:36,0.050s,PASSED
+Statement - quote = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Quote Page (13)/QUOTEid)),Chrome 64.0.3282.186,,2018-03-15 15:19:36,2018-03-15 15:19:37,0.548s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:19:37,2018-03-15 15:19:48,10.856s,PASSED
+waitForElementVisible,Chrome 64.0.3282.186,,2018-03-15 15:19:48,2018-03-15 15:19:53,4.667s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:19:53,2018-03-15 15:19:54,1.320s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:19:54,2018-03-15 15:19:56,2.013s,PASSED
+sendKeys,Chrome 64.0.3282.186,,2018-03-15 15:19:56,2018-03-15 15:19:56,0.482s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:19:56,2018-03-15 15:19:57,0.780s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:19:57,2018-03-15 15:19:57,0.196s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:19:57,2018-03-15 15:20:15,17.834s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:20:15,2018-03-15 15:20:17,1.799s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:20:17,2018-03-15 15:20:18,1.257s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:20:18,2018-03-15 15:20:19,0.511s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:20:19,2018-03-15 15:20:19,0.318s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:20:19,2018-03-15 15:20:20,0.761s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:20:20,2018-03-15 15:20:20,0.504s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:20:20,2018-03-15 15:20:21,0.406s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:20:21,2018-03-15 15:20:21,0.313s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:20:21,2018-03-15 15:20:21,0.077s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:20:21,2018-03-15 15:20:21,0.238s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:20:21,2018-03-15 15:20:52,30.662s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:20:52,2018-03-15 15:20:53,1.073s,PASSED
+waitForAngularLoad,Chrome 64.0.3282.186,,2018-03-15 15:20:53,2018-03-15 15:20:59,6.004s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:20:59,2018-03-15 15:20:59,0.104s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:20:59,2018-03-15 15:21:00,0.484s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:21:00,2018-03-15 15:21:06,6.384s,PASSED
+"Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Quote Page (11)/div_Approved), ""class"")",Chrome 64.0.3282.186,,2018-03-15 15:21:06,2018-03-15 15:21:06,0.127s,PASSED
+"Statement - verifttrue = attribute.contains(""select"")",Chrome 64.0.3282.186,,2018-03-15 15:21:06,2018-03-15 15:21:06,0.000s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:21:06,2018-03-15 15:21:06,0.002s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:21:06,2018-03-15 15:21:24,17.870s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:21:24,2018-03-15 15:21:24,0.078s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:21:24,2018-03-15 15:21:24,0.320s,PASSED
+selectOptionByValue,Chrome 64.0.3282.186,,2018-03-15 15:21:24,2018-03-15 15:21:25,0.974s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:21:25,2018-03-15 15:21:26,0.306s,PASSED
+waitForElementVisible,Chrome 64.0.3282.186,,2018-03-15 15:21:26,2018-03-15 15:21:49,23.703s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:21:49,2018-03-15 15:21:50,0.172s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:21:50,2018-03-15 15:21:50,0.207s,PASSED
+waitForElementVisible,Chrome 64.0.3282.186,,2018-03-15 15:21:50,2018-03-15 15:21:50,0.078s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:21:50,2018-03-15 15:23:00,1m - 10.002s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-15 15:23:00,2018-03-15 15:23:00,0.058s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:23:00,2018-03-15 15:23:00,0.450s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:23:00,2018-03-15 15:23:01,0.556s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:23:01,2018-03-15 15:23:03,2.002s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:23:03,2018-03-15 15:23:05,2.001s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:23:05,2018-03-15 15:23:06,0.606s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:23:06,2018-03-15 15:23:11,5.003s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:23:11,2018-03-15 15:23:21,10.230s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:23:21,2018-03-15 15:23:26,5.001s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:23:26,2018-03-15 15:23:26,0.255s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:23:26,2018-03-15 15:23:56,30.003s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:23:56,2018-03-15 15:23:57,1.221s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:23:57,2018-03-15 15:24:04,6.409s,PASSED
+"Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Quote Page (11)/div_Presented), ""class"")",Chrome 64.0.3282.186,,2018-03-15 15:24:04,2018-03-15 15:24:04,0.465s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,hard coded as an object\r\n,2018-03-15 15:24:04,2018-03-15 15:24:10,5.762s,PASSED
+"Statement - verifttrue = attribute.contains(""select"")",Chrome 64.0.3282.186,,2018-03-15 15:24:10,2018-03-15 15:24:10,0.000s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:24:10,2018-03-15 15:24:10,0.008s,FAILED
+click,Chrome 64.0.3282.186,,2018-03-15 15:24:10,2018-03-15 15:24:12,1.785s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:24:12,2018-03-15 15:24:12,0.395s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:24:12,2018-03-15 15:24:14,1.453s,FAILED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:24:14,2018-03-15 15:24:59,45.366s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 64.0.3282.186,,2018-03-15 15:24:59,2018-03-15 15:24:59,0.052s,PASSED
+"Statement - assert title == ""Apttus - Contract Lifecycle Management""",Chrome 64.0.3282.186,,2018-03-15 15:24:59,2018-03-15 15:24:59,0.004s,PASSED
+Statement - quoteidclm = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/quoteid)),Chrome 64.0.3282.186,,2018-03-15 15:24:59,2018-03-15 15:24:59,0.477s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:24:59,2018-03-15 15:24:59,0.001s,PASSED
+Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_Request  Request)),Chrome 64.0.3282.186,,2018-03-15 15:24:59,2018-03-15 15:25:01,1.073s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:25:01,2018-03-15 15:25:01,0.002s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:25:01,2018-03-15 15:25:04,3.600s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:25:04,2018-03-15 15:25:09,5.002s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:25:09,2018-03-15 15:25:09,0.169s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:25:09,2018-03-15 15:25:10,0.822s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:25:10,2018-03-15 15:25:10,0.294s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:25:10,2018-03-15 15:25:11,0.444s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:25:11,2018-03-15 15:25:16,5.003s,PASSED
+waitForElementPresent,Chrome 64.0.3282.186,,2018-03-15 15:25:16,2018-03-15 15:26:33,1m - 17.525s,PASSED
+Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Author C)),Chrome 64.0.3282.186,,2018-03-15 15:26:33,2018-03-15 15:26:37,3.604s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:26:37,2018-03-15 15:26:37,0.001s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:26:37,2018-03-15 15:26:42,5.002s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-15 15:26:42,2018-03-15 15:26:44,1.552s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/apttus11clm,Chrome 64.0.3282.186,,2018-03-15 15:26:44,2018-03-15 15:29:17,2m - 33.751s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-15 15:26:44,2018-03-15 15:26:48,3.936s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-15 15:26:48,2018-03-15 15:26:49,1.289s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-15 15:26:49,2018-03-15 15:26:54,4.689s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:26:54,2018-03-15 15:27:10,16.209s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:27:10,2018-03-15 15:27:11,0.271s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:27:11,2018-03-15 15:27:11,0.317s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:27:11,2018-03-15 15:27:38,26.815s,PASSED
+Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Author C)),Chrome 64.0.3282.186,,2018-03-15 15:27:38,2018-03-15 15:27:38,0.414s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:27:38,2018-03-15 15:27:38,0.002s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:27:38,2018-03-15 15:27:42,4.128s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:27:42,2018-03-15 15:27:43,0.717s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:27:43,2018-03-15 15:27:44,0.938s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:27:44,2018-03-15 15:27:49,4.740s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:27:49,2018-03-15 15:27:49,0.571s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:27:49,2018-03-15 15:27:57,7.524s,PASSED
+Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language)),Chrome 64.0.3282.186,,2018-03-15 15:27:57,2018-03-15 15:27:57,0.142s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:27:57,2018-03-15 15:27:57,0.001s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:27:57,2018-03-15 15:27:58,1.227s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:27:58,2018-03-15 15:28:00,1.430s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:28:00,2018-03-15 15:28:01,1.678s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:01,2018-03-15 15:28:06,5.001s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:06,2018-03-15 15:28:07,0.484s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:07,2018-03-15 15:28:12,5.002s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:28:12,2018-03-15 15:28:13,0.771s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:13,2018-03-15 15:28:15,2.002s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:15,2018-03-15 15:28:15,0.273s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:15,2018-03-15 15:28:17,2.003s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:17,2018-03-15 15:28:17,0.429s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:17,2018-03-15 15:28:19,2.002s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:19,2018-03-15 15:28:20,0.288s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:20,2018-03-15 15:28:22,2.003s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:28:22,2018-03-15 15:28:23,1.232s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:23,2018-03-15 15:28:23,0.552s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:28:23,2018-03-15 15:28:28,4.332s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:28,2018-03-15 15:28:28,0.365s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:28:28,2018-03-15 15:28:33,5.244s,PASSED
+Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Other Pa)),Chrome 64.0.3282.186,,2018-03-15 15:28:33,2018-03-15 15:28:33,0.106s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:28:33,2018-03-15 15:28:33,0.001s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:33,2018-03-15 15:28:34,0.696s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:28:34,2018-03-15 15:28:36,2.203s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:28:36,2018-03-15 15:28:38,1.574s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:38,2018-03-15 15:28:43,5.001s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:43,2018-03-15 15:28:43,0.508s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:43,2018-03-15 15:28:48,5.002s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-15 15:28:48,2018-03-15 15:28:49,0.590s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:49,2018-03-15 15:28:49,0.262s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:49,2018-03-15 15:28:51,2.002s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:51,2018-03-15 15:28:52,0.322s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:52,2018-03-15 15:28:54,2.001s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:54,2018-03-15 15:28:54,0.378s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-15 15:28:54,2018-03-15 15:28:56,2.002s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:28:56,2018-03-15 15:28:57,1.054s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:28:57,2018-03-15 15:28:57,0.385s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:28:57,2018-03-15 15:29:01,4.150s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:29:01,2018-03-15 15:29:02,0.451s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:29:02,2018-03-15 15:29:06,4.327s,PASSED
+Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Signatures  Pending)),Chrome 64.0.3282.186,,2018-03-15 15:29:06,2018-03-15 15:29:06,0.196s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:29:06,2018-03-15 15:29:06,0.001s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:29:06,2018-03-15 15:29:07,1.035s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:29:07,2018-03-15 15:29:08,0.276s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:29:08,2018-03-15 15:29:08,0.223s,PASSED
+waitForElementClickable,Chrome 64.0.3282.186,,2018-03-15 15:29:08,2018-03-15 15:29:09,1.509s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-15 15:29:09,2018-03-15 15:29:10,0.422s,PASSED
+Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Signatures  Fully S)),Chrome 64.0.3282.186,,2018-03-15 15:29:10,2018-03-15 15:29:16,5.898s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-15 15:29:16,2018-03-15 15:29:16,0.001s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-15 15:29:16,2018-03-15 15:29:17,1.513s,PASSED

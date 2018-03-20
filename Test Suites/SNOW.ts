@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SNOW</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-03-16T16:40:38</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d9ae0e27-69e8-45e9-b967-0e6f83b2f7d7</testSuiteGuid>
+   <testCaseLink>
+      <guid>4281b8a4-98aa-4046-ba67-7034079e79c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/apttus11</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bab279dc-b263-4b72-b308-c12008096b0e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SNOW_Testdata</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>bab279dc-b263-4b72-b308-c12008096b0e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username </value>
+         <variableId>62c8bf10-38d4-4a29-9ff0-f827534958e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bab279dc-b263-4b72-b308-c12008096b0e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9f5668c3-f2cc-4f10-b0c3-29d154c1cb83</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bab279dc-b263-4b72-b308-c12008096b0e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Product</value>
+         <variableId>a21ccdc4-bbe6-4917-9cdc-aa595d27d3cb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bab279dc-b263-4b72-b308-c12008096b0e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CPQURL</value>
+         <variableId>ab96e9da-83f5-49d9-b0ef-53efadf42574</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>47036ae9-4b8f-4bb8-a318-d7b8bc5939d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/apttus11clm</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3827c8b3-671f-4b1d-b2f5-1c58be21e6e0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SNOW_Testdata</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3827c8b3-671f-4b1d-b2f5-1c58be21e6e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username </value>
+         <variableId>8d7f6920-acdb-4f81-bb88-29dbf8d520b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3827c8b3-671f-4b1d-b2f5-1c58be21e6e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>269dea16-0ea4-4489-bef2-d80ad61f7e41</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3827c8b3-671f-4b1d-b2f5-1c58be21e6e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CLMURL</value>
+         <variableId>84f00ab7-4f10-49c1-9c3e-a487ac73cdcd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3827c8b3-671f-4b1d-b2f5-1c58be21e6e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sendReview username</value>
+         <variableId>2baf10e5-87f8-4c0b-915a-bdaac5ee9db1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3827c8b3-671f-4b1d-b2f5-1c58be21e6e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SendreviewEmailid</value>
+         <variableId>ab7ee498-8267-466d-a4a3-c06ab69135b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3827c8b3-671f-4b1d-b2f5-1c58be21e6e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SendSignatureUsername</value>
+         <variableId>6f0d3356-1ca6-4d6f-8af2-6e3270b51c11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3827c8b3-671f-4b1d-b2f5-1c58be21e6e0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SendSignatureEmailid</value>
+         <variableId>f55f3590-457e-48ae-b0ac-950cb46dc812</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

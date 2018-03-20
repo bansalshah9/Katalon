@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SNOW" time="572" tests="1" failures="1" errors="0">
+   <testsuite name="SNOW" tests="1" failures="1" errors="0" time="572" timestamp="2018-03-14 18:44:47" hostname="bashah - L005401.Apttus.local" id="Test Suites/SNOW">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\SNOW\\20180314_184444"/>
+         <property name="logFiles" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\SNOW\\20180314_184444\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\SNOW\\20180314_184444\\1521033557677.png, C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\SNOW\\20180314_184444\\1521033725153.png"/>
+         <property name="hostName" value="bashah - L005401.Apttus.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.13.10.136"/>
+         <property name="sessionId" value="ffadd7f78b2aad70ca3280c4579ef2b9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/apttus11" classname="Test Cases/Main Test Cases/apttus11" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Apttus - Quote Page (9)/button_Yes' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\bashah\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: a2e4b3a7b1ff3fbd5e2fef2ac4261472)"/>
+         <system-out><![CDATA[2018-03-14 18:44:48 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/apttus11: Test Cases/Main Test Cases/apttus11 FAILED because (of) Unable to click on object 'Object Repository/Page_Apttus - Quote Page (9)/button_Yes' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\bashah\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: a2e4b3a7b1ff3fbd5e2fef2ac4261472)
+
+2018-03-14 18:44:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-14 18:44:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-14 18:44:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-14 18:44:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-14 18:44:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://servicenow-apttus11.apttuscloud.com/ui/cpq/quote/detail/678d610b-3821-e811-896b-00155d7fe074?flow=Default&uid=ce652490-210e-e811-80c2-0004ffb07c3f' successfully
+
+2018-03-14 18:45:03 - [MESSAGE][PASSED] - Navigate to 'https://servicenow-apttus11.apttuscloud.com/ui/cpq/quote/detail/678d610b-3821-e811-896b-00155d7fe074?flow=Default&uid=ce652490-210e-e811-80c2-0004ffb07c3f' successfully
+
+2018-03-14 18:45:03 - [TEST_STEP][PASSED] - setText: Text 'prachy.gupta@servicenow.com' is set on object 'Object Repository/Page_SSOUAT (6)/input_username'
+
+2018-03-14 18:45:25 - [MESSAGE][PASSED] - Text 'prachy.gupta@servicenow.com' is set on object 'Object Repository/Page_SSOUAT (6)/input_username'
+
+2018-03-14 18:45:25 - [TEST_STEP][PASSED] - setText: Text 'White%balls%' is set on object 'Object Repository/Page_SSOUAT (6)/input_password'
+
+2018-03-14 18:45:25 - [MESSAGE][PASSED] - Text 'White%balls%' is set on object 'Object Repository/Page_SSOUAT (6)/input_password'
+
+2018-03-14 18:45:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_SSOUAT (6)/input_submitButton' is clicked on
+
+2018-03-14 18:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SSOUAT (6)/input_submitButton' is clicked on
+
+2018-03-14 18:45:25 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Configure Products' is clickable
+
+2018-03-14 18:45:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Configure Products' is clickable
+
+2018-03-14 18:45:38 - [TEST_STEP][PASSED] - Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Quote Page (11)/div_Draft), "class"): Attribute 'class' of object 'Object Repository/Page_Apttus - Quote Page (11)/div_Draft' is: 'cpq-chevron selected'
+
+2018-03-14 18:45:38 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/Page_Apttus - Quote Page (11)/div_Draft' is: 'cpq-chevron selected'
+
+2018-03-14 18:45:38 - [TEST_STEP][PASSED] - Statement - verifttrue = attribute.contains("select"): null
+
+2018-03-14 18:45:38 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'true' and expected object 'true' are equal
+
+2018-03-14 18:45:39 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-03-14 18:45:39 - [TEST_STEP][PASSED] - Statement - quote = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Quote Page (13)/QUOTEid)): Text of object 'Object Repository/Page_Apttus - Quote Page (13)/QUOTEid' is: 'QUO0762151-4'
+
+2018-03-14 18:45:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Apttus - Quote Page (13)/QUOTEid' is: 'QUO0762151-4'
+
+2018-03-14 18:45:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Quote Page (9)/button_Configure Products' is clicked on
+
+2018-03-14 18:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Quote Page (9)/button_Configure Products' is clicked on
+
+2018-03-14 18:45:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CPQ Cart (3)/input_catalog-search-input fie' is visible
+
+2018-03-14 18:45:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CPQ Cart (3)/input_catalog-search-input fie' is visible
+
+2018-03-14 18:45:46 - [TEST_STEP][PASSED] - setText: Text 'Service Management Suite v2 with Performance Analytics - Fulfiller User ' is set on object 'Object Repository/Page_CPQ Cart (3)/input_catalog-search-input fie'
+
+2018-03-14 18:45:46 - [MESSAGE][PASSED] - Text 'Service Management Suite v2 with Performance Analytics - Fulfiller User ' is set on object 'Object Repository/Page_CPQ Cart (3)/input_catalog-search-input fie'
+
+2018-03-14 18:45:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:45:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:45:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_CPQ Cart (3)/input_catalog-search-input fie'
+
+2018-03-14 18:45:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_CPQ Cart (3)/input_catalog-search-input fie'
+
+2018-03-14 18:45:49 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_CPQ Cart (3)/button_Configure...' is clickable
+
+2018-03-14 18:45:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CPQ Cart (3)/button_Configure...' is clickable
+
+2018-03-14 18:45:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CPQ Cart (3)/button_Configure...' is clicked on
+
+2018-03-14 18:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CPQ Cart (3)/button_Configure...' is clicked on
+
+2018-03-14 18:45:50 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_CPQ Cart (3)/button_Go to Pricing' is clickable
+
+2018-03-14 18:46:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CPQ Cart (3)/button_Go to Pricing' is clickable
+
+2018-03-14 18:46:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CPQ Cart (3)/button_Go to Pricing' is clicked on
+
+2018-03-14 18:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CPQ Cart (3)/button_Go to Pricing' is clicked on
+
+2018-03-14 18:46:09 - [TEST_STEP][PASSED] - setText: Text '5' is set on object 'Object Repository/Page_CPQ Cart (3)/input_Apttus_Config2__Quantity'
+
+2018-03-14 18:46:10 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_CPQ Cart (3)/input_Apttus_Config2__Quantity'
+
+2018-03-14 18:46:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CPQ Cart (3)/button_Reprice' is clicked on
+
+2018-03-14 18:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CPQ Cart (3)/button_Reprice' is clicked on
+
+2018-03-14 18:46:10 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_CPQ Cart (3)/button_Reprice' is clickable
+
+2018-03-14 18:46:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CPQ Cart (3)/button_Reprice' is clickable
+
+2018-03-14 18:46:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CPQ Cart (3)/b' is clicked on
+
+2018-03-14 18:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CPQ Cart (3)/b' is clicked on
+
+2018-03-14 18:46:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CPQ Cart (3)/div_ Discount' is clicked on
+
+2018-03-14 18:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CPQ Cart (3)/div_ Discount' is clicked on
+
+2018-03-14 18:46:12 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Page_CPQ Cart (3)/input_Apttus_Config2__Adjustme'
+
+2018-03-14 18:46:12 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Page_CPQ Cart (3)/input_Apttus_Config2__Adjustme'
+
+2018-03-14 18:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CPQ Cart (3)/button_Reprice' is clicked on
+
+2018-03-14 18:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CPQ Cart (3)/button_Reprice' is clicked on
+
+2018-03-14 18:46:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_CPQ Cart (3)/button_Reprice' is clickable
+
+2018-03-14 18:46:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CPQ Cart (3)/button_Reprice' is clickable
+
+2018-03-14 18:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CPQ Cart (3)/button_Finalize' is clicked on
+
+2018-03-14 18:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CPQ Cart (3)/button_Finalize' is clicked on
+
+2018-03-14 18:46:13 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Quote Page (9)/md-tab-item_Approvals' is clickable
+
+2018-03-14 18:46:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Quote Page (9)/md-tab-item_Approvals' is clickable
+
+2018-03-14 18:46:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Quote Page (9)/md-tab-item_Approvals' is clicked on
+
+2018-03-14 18:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Quote Page (9)/md-tab-item_Approvals' is clicked on
+
+2018-03-14 18:46:42 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-03-14 18:46:47 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-03-14 18:46:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Submit' is clickable
+
+2018-03-14 18:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Submit' is clickable
+
+2018-03-14 18:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Quote Page (9)/button_Submit' is clicked on
+
+2018-03-14 18:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Quote Page (9)/button_Submit' is clicked on
+
+2018-03-14 18:46:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Generate and Send Propo' is clickable
+
+2018-03-14 18:46:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Generate and Send Propo' is clickable
+
+2018-03-14 18:46:53 - [TEST_STEP][PASSED] - Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Quote Page (11)/div_Approved), "class"): Attribute 'class' of object 'Object Repository/Page_Apttus - Quote Page (11)/div_Approved' is: 'cpq-chevron selected'
+
+2018-03-14 18:46:53 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/Page_Apttus - Quote Page (11)/div_Approved' is: 'cpq-chevron selected'
+
+2018-03-14 18:46:53 - [TEST_STEP][PASSED] - Statement - verifttrue = attribute.contains("select"): null
+
+2018-03-14 18:46:53 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'true' and expected object 'true' are equal
+
+2018-03-14 18:46:53 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-03-14 18:46:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Quote Page (9)/button_Generate and Send Propo' is clicked on
+
+2018-03-14 18:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Quote Page (9)/button_Generate and Send Propo' is clicked on
+
+2018-03-14 18:46:56 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - DocGen (3)/button_New Proposal Document' is clickable
+
+2018-03-14 18:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - DocGen (3)/button_New Proposal Document' is clickable
+
+2018-03-14 18:46:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - DocGen (3)/button_New Proposal Document' is clicked on
+
+2018-03-14 18:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - DocGen (3)/button_New Proposal Document' is clicked on
+
+2018-03-14 18:46:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'string:DOCX' are selected in object 'Object Repository/Page_Apttus - DocGen (3)/select_PDFDOCX'  using regular expression
+
+2018-03-14 18:46:58 - [MESSAGE][PASSED] - All options with value 'string:DOCX' are selected in object 'Object Repository/Page_Apttus - DocGen (3)/select_PDFDOCX'  using regular expression
+
+2018-03-14 18:46:58 - [TEST_STEP][PASSED] - setText: Text 'te' is set on object 'Object Repository/Page_Apttus - DocGen (3)/input_form-control'
+
+2018-03-14 18:46:59 - [MESSAGE][PASSED] - Text 'te' is set on object 'Object Repository/Page_Apttus - DocGen (3)/input_form-control'
+
+2018-03-14 18:46:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Apttus - DocGen (5)/td_Budgetary Quote Template' is visible
+
+2018-03-14 18:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - DocGen (5)/td_Budgetary Quote Template' is visible
+
+2018-03-14 18:46:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - DocGen (5)/td_Budgetary Quote Template' is clicked on
+
+2018-03-14 18:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - DocGen (5)/td_Budgetary Quote Template' is clicked on
+
+2018-03-14 18:46:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - DocGen (3)/button_Generate' is clicked on
+
+2018-03-14 18:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - DocGen (3)/button_Generate' is clicked on
+
+2018-03-14 18:46:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Apttus - DocGen (3)/button_Email' is visible
+
+2018-03-14 18:46:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - DocGen (3)/button_Email' is visible
+
+2018-03-14 18:46:59 - [TEST_STEP][PASSED] - delay: Delayed 70 second(s)
+
+2018-03-14 18:48:09 - [MESSAGE][PASSED] - Delayed 70 second(s)
+
+2018-03-14 18:48:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Apttus - DocGen (4)/verifyDocGenerated' is present
+
+2018-03-14 18:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - DocGen (4)/verifyDocGenerated' is present
+
+2018-03-14 18:48:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - DocGen (3)/button_Email' is clicked on
+
+2018-03-14 18:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - DocGen (3)/button_Email' is clicked on
+
+2018-03-14 18:48:09 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Apttus - DocGen (3)/input_subjectLine'
+
+2018-03-14 18:48:10 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Apttus - DocGen (3)/input_subjectLine'
+
+2018-03-14 18:48:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:48:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:48:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:48:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:48:14 - [TEST_STEP][PASSED] - setText: Text 'testemail' is set on object 'Object Repository/Page_Apttus - DocGen (4)/enterName'
+
+2018-03-14 18:48:14 - [MESSAGE][PASSED] - Text 'testemail' is set on object 'Object Repository/Page_Apttus - DocGen (4)/enterName'
+
+2018-03-14 18:48:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-14 18:48:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-14 18:48:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - DocGen (4)/emailselect' is clicked on
+
+2018-03-14 18:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - DocGen (4)/emailselect' is clicked on
+
+2018-03-14 18:48:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-14 18:48:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-14 18:48:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - DocGen (3)/button_Send' is clicked on
+
+2018-03-14 18:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - DocGen (3)/button_Send' is clicked on
+
+2018-03-14 18:48:35 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-03-14 18:49:05 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-03-14 18:49:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - DocGen (4)/linkQuote' is clicked on
+
+2018-03-14 18:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - DocGen (4)/linkQuote' is clicked on
+
+2018-03-14 18:49:06 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Accept Quote' is clickable
+
+2018-03-14 18:49:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Accept Quote' is clickable
+
+2018-03-14 18:49:11 - [TEST_STEP][PASSED] - Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Quote Page (11)/div_Presented), "class"): Attribute 'class' of object 'Object Repository/Page_Apttus - Quote Page (11)/div_Presented' is: 'cpq-chevron selected'
+
+2018-03-14 18:49:11 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/Page_Apttus - Quote Page (11)/div_Presented' is: 'cpq-chevron selected'
+
+2018-03-14 18:49:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Apttus - Quote Page (13)/firstProductPresent' is present
+
+2018-03-14 18:49:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Quote Page (13)/firstProductPresent' is present
+
+2018-03-14 18:49:16 - [TEST_STEP][PASSED] - Statement - verifttrue = attribute.contains("select"): null
+
+2018-03-14 18:49:16 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'true' and expected object 'true' are equal
+
+2018-03-14 18:49:16 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-03-14 18:49:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Quote Page (9)/button_Accept Quote' is clicked on
+
+2018-03-14 18:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Quote Page (9)/button_Accept Quote' is clicked on
+
+2018-03-14 18:49:17 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Yes' is clickable
+
+2018-03-14 18:49:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Quote Page (9)/button_Yes' is clickable
+
+2018-03-14 18:49:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Apttus - Quote Page (9)/button_Yes' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\bashah\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: a2e4b3a7b1ff3fbd5e2fef2ac4261472)
+
+2018-03-14 18:49:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Apttus - Quote Page (9)/button_Yes' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\bashah\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: a2e4b3a7b1ff3fbd5e2fef2ac4261472)
+[[ATTACHMENT|C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\SNOW\\20180314_184444\\1521033557677.png]]
+
+2018-03-14 18:49:18 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (3)/button_Generate' is clickable
+
+2018-03-14 18:49:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (3)/button_Generate' is clickable
+
+2018-03-14 18:49:46 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Apttus - Contract Lifecycle Management'
+
+2018-03-14 18:49:46 - [MESSAGE][PASSED] - Current window's title is: 'Apttus - Contract Lifecycle Management'
+
+2018-03-14 18:49:46 - [TEST_STEP][PASSED] - Statement - assert title == "Apttus - Contract Lifecycle Management": null
+
+2018-03-14 18:49:46 - [TEST_STEP][PASSED] - Statement - quoteidclm = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/quoteid)): Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/quoteid' is: 'QUO0762151-4'
+
+2018-03-14 18:49:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/quoteid' is: 'QUO0762151-4'
+
+2018-03-14 18:49:46 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'QUO0762151-4' and expected object 'QUO0762151-4' are equal
+
+2018-03-14 18:49:46 - [MESSAGE][PASSED] - Actual object 'QUO0762151-4' and expected object 'QUO0762151-4' are equal
+
+2018-03-14 18:49:46 - [TEST_STEP][PASSED] - Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_Request  Request)): Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_Request  Request' is: 'Request | Request'
+
+2018-03-14 18:49:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_Request  Request' is: 'Request | Request'
+
+2018-03-14 18:49:46 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Request | Request' and expected object 'Request | Request' are equal
+
+2018-03-14 18:49:46 - [MESSAGE][PASSED] - Actual object 'Request | Request' and expected object 'Request | Request' are equal
+
+2018-03-14 18:49:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (3)/button_Generate' is clicked on
+
+2018-03-14 18:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (3)/button_Generate' is clicked on
+
+2018-03-14 18:49:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-14 18:49:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-14 18:49:52 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (7)/div_md-off' is clickable
+
+2018-03-14 18:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (7)/div_md-off' is clickable
+
+2018-03-14 18:49:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (7)/div_md-off' is clicked on
+
+2018-03-14 18:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (7)/div_md-off' is clicked on
+
+2018-03-14 18:49:52 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (3)/button_Submit' is clickable
+
+2018-03-14 18:49:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (3)/button_Submit' is clickable
+
+2018-03-14 18:49:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (3)/button_Submit' is clicked on
+
+2018-03-14 18:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (3)/button_Submit' is clicked on
+
+2018-03-14 18:49:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-14 18:49:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-14 18:49:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language' is not present after 90 second(s)
+
+2018-03-14 18:51:34 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language' is not present after 90 second(s)
+
+2018-03-14 18:51:34 - [TEST_STEP][FAILED] - Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language)): Unable to get text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language' located by 'By.xpath: //md-chip[(text() = '
+				In Authoring | Language Approved
+			' or . = '
+				In Authoring | Language Approved
+			')]' not found)
+
+2018-03-14 18:52:05 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language' located by 'By.xpath: //md-chip[(text() = '
+				In Authoring | Language Approved
+			' or . = '
+				In Authoring | Language Approved
+			')]' not found)
+[[ATTACHMENT|C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\SNOW\\20180314_184444\\1521033725153.png]]
+
+2018-03-14 18:52:05 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'In Authoring | Language Approved' and expected object 'null' (Root cause: Actual object 'In Authoring | Language Approved' and expected object 'null' are not equal)
+
+2018-03-14 18:52:05 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'In Authoring | Language Approved' and expected object 'null' (Root cause: Actual object 'In Authoring | Language Approved' and expected object 'null' are not equal)
+
+2018-03-14 18:52:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-14 18:52:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-14 18:52:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-14 18:52:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-03-14 18:44:48 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/apttus11: Test Cases/Main Test Cases/apttus11 FAILED because (of) Unable to click on object 'Object Repository/Page_Apttus - Quote Page (9)/button_Yes' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\bashah\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: a2e4b3a7b1ff3fbd5e2fef2ac4261472)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/apttus11clm" classname="Test Cases/Main Test Cases/apttus11clm" status="PASSED">
+         <system-out><![CDATA[2018-03-14 18:52:11 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/apttus11clm: Test Cases/Main Test Cases/apttus11clm
+
+2018-03-14 18:52:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-14 18:52:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-14 18:52:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-14 18:52:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-14 18:52:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://servicenowext.oktapreview.com/login/login.htm?fromURI=%2Fapp%2Fservicenowexternalportal_apttussnowperf_1%2Fexkdcery72Duhu2RN0h7%2Fsso%2Fsaml%3FSAMLRequest%3DfVJNb%252bIwFPwrke%252f5LIFgESS2qCpStxsRdg97qVznsVh1bK%252bfXei%252fX5MsUlHVnmw9z5vRzHiBrJeGrrw7qC389YAu2qxrYvanbP5cliWv8mk5nWRlMWcVB5hP9tDBhM0rEv0Ci0KrmhRJRqINooeNQseUC6Msr%252bLsJs6qXTajkyktbn6TqLHaaa7lN6E6of7UxFtFNUOBVLEekDpO29X3BxoY6fMIQnq%252f2zVx86PdkWiFCNYF0Vut0PdgW7CvgsPP7UNNDs4ZpGmK40zpY8yMcx7zPBkvXGrfJVz3aRt8t81wbAFNYAMSrYN9oZgbTH1kg5NL9ItjxsKrgOPAw4y5RoBVTBptHZNPoyiGBwN2%252f5SncHrpONi3WbH2B19sH7PDLEXU6bkGEp16qZAOlXwdjfmfI1kuzmg6ZG%252ff7X%252b9zi4pkuXFJTPiKiOhU4ZGxmey%252bOJgkb5TG6UNfQz0m3WjpeBv0Z22PXOfq%252bdJPkxEF%252b8HKIWeCbnqOguIoV8p9fHWAnNQE2d9KCVdjrLXv3T5Dw%253d%253d%26RelayState%3Dhttps%3A%2F%2Fservicenow-apttus11.apttuscloud.com%2Fui%2Fclm%2Fclm%2Fagreement%2Fdetail%2Fccab1e29-9f22-e811-896b-00155d7fe074' successfully
+
+2018-03-14 18:52:19 - [MESSAGE][PASSED] - Navigate to 'https://servicenowext.oktapreview.com/login/login.htm?fromURI=%2Fapp%2Fservicenowexternalportal_apttussnowperf_1%2Fexkdcery72Duhu2RN0h7%2Fsso%2Fsaml%3FSAMLRequest%3DfVJNb%252bIwFPwrke%252f5LIFgESS2qCpStxsRdg97qVznsVh1bK%252bfXei%252fX5MsUlHVnmw9z5vRzHiBrJeGrrw7qC389YAu2qxrYvanbP5cliWv8mk5nWRlMWcVB5hP9tDBhM0rEv0Ci0KrmhRJRqINooeNQseUC6Msr%252bLsJs6qXTajkyktbn6TqLHaaa7lN6E6of7UxFtFNUOBVLEekDpO29X3BxoY6fMIQnq%252f2zVx86PdkWiFCNYF0Vut0PdgW7CvgsPP7UNNDs4ZpGmK40zpY8yMcx7zPBkvXGrfJVz3aRt8t81wbAFNYAMSrYN9oZgbTH1kg5NL9ItjxsKrgOPAw4y5RoBVTBptHZNPoyiGBwN2%252f5SncHrpONi3WbH2B19sH7PDLEXU6bkGEp16qZAOlXwdjfmfI1kuzmg6ZG%252ff7X%252b9zi4pkuXFJTPiKiOhU4ZGxmey%252bOJgkb5TG6UNfQz0m3WjpeBv0Z22PXOfq%252bdJPkxEF%252b8HKIWeCbnqOguIoV8p9fHWAnNQE2d9KCVdjrLXv3T5Dw%253d%253d%26RelayState%3Dhttps%3A%2F%2Fservicenow-apttus11.apttuscloud.com%2Fui%2Fclm%2Fclm%2Fagreement%2Fdetail%2Fccab1e29-9f22-e811-896b-00155d7fe074' successfully
+
+2018-03-14 18:52:19 - [TEST_STEP][PASSED] - setText: Text 'prachy.gupta@servicenow.com' is set on object 'Object Repository/Page_SSOUAT (8)/input_username'
+
+2018-03-14 18:52:30 - [MESSAGE][PASSED] - Text 'prachy.gupta@servicenow.com' is set on object 'Object Repository/Page_SSOUAT (8)/input_username'
+
+2018-03-14 18:52:30 - [TEST_STEP][PASSED] - setText: Text 'White%balls%' is set on object 'Object Repository/Page_SSOUAT (8)/input_password'
+
+2018-03-14 18:52:31 - [MESSAGE][PASSED] - Text 'White%balls%' is set on object 'Object Repository/Page_SSOUAT (8)/input_password'
+
+2018-03-14 18:52:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_SSOUAT (8)/input_submitButton' is clicked on
+
+2018-03-14 18:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SSOUAT (8)/input_submitButton' is clicked on
+
+2018-03-14 18:52:31 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send to Requester' is clickable
+
+2018-03-14 18:52:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send to Requester' is clickable
+
+2018-03-14 18:52:52 - [TEST_STEP][PASSED] - Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Author C)): Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Author C' is: 'In Authoring | Author Contract'
+
+2018-03-14 18:52:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Author C' is: 'In Authoring | Author Contract'
+
+2018-03-14 18:52:52 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'In Authoring | Author Contract' and expected object 'In Authoring | Author Contract' are equal
+
+2018-03-14 18:52:52 - [MESSAGE][PASSED] - Actual object 'In Authoring | Author Contract' and expected object 'In Authoring | Author Contract' are equal
+
+2018-03-14 18:52:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/nextbutton' is clicked on
+
+2018-03-14 18:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/nextbutton' is clicked on
+
+2018-03-14 18:52:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/nextbutton' is clicked on
+
+2018-03-14 18:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/nextbutton' is clicked on
+
+2018-03-14 18:52:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/Page_Apttus - Contract Lifecycle Ma/md-tab-item_Approvals' is clicked on
+
+2018-03-14 18:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/Page_Apttus - Contract Lifecycle Ma/md-tab-item_Approvals' is clicked on
+
+2018-03-14 18:52:54 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Submit' is clickable
+
+2018-03-14 18:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Submit' is clickable
+
+2018-03-14 18:53:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Submit' is clicked on
+
+2018-03-14 18:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Submit' is clicked on
+
+2018-03-14 18:53:00 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send for Review' is clickable
+
+2018-03-14 18:53:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send for Review' is clickable
+
+2018-03-14 18:53:08 - [TEST_STEP][PASSED] - Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language)): Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language' is: 'In Authoring | Language Approved'
+
+2018-03-14 18:53:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Language' is: 'In Authoring | Language Approved'
+
+2018-03-14 18:53:08 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'In Authoring | Language Approved' and expected object 'In Authoring | Language Approved' are equal
+
+2018-03-14 18:53:08 - [MESSAGE][PASSED] - Actual object 'In Authoring | Language Approved' and expected object 'In Authoring | Language Approved' are equal
+
+2018-03-14 18:53:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send for Review' is clicked on
+
+2018-03-14 18:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send for Review' is clicked on
+
+2018-03-14 18:53:09 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_name-input-0'
+
+2018-03-14 18:53:11 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_name-input-0'
+
+2018-03-14 18:53:11 - [TEST_STEP][PASSED] - setText: Text 'bashah@apttus.com' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_email-input-0'
+
+2018-03-14 18:53:12 - [MESSAGE][PASSED] - Text 'bashah@apttus.com' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_email-input-0'
+
+2018-03-14 18:53:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-14 18:53:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-14 18:53:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/span_Template selection' is clicked on
+
+2018-03-14 18:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/span_Template selection' is clicked on
+
+2018-03-14 18:53:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-14 18:53:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-14 18:53:22 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_Subject'
+
+2018-03-14 18:53:22 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_Subject'
+
+2018-03-14 18:53:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:53:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:53:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/div_note-editable panel-body' is clicked on
+
+2018-03-14 18:53:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/div_note-editable panel-body' is clicked on
+
+2018-03-14 18:53:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:53:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:53:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/selectTemplate' is clicked on
+
+2018-03-14 18:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/selectTemplate' is clicked on
+
+2018-03-14 18:53:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:53:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:53:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (5)/md-option_Send for Review (MOA' is clicked on
+
+2018-03-14 18:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (5)/md-option_Send for Review (MOA' is clicked on
+
+2018-03-14 18:53:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:53:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:53:31 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send' is clickable
+
+2018-03-14 18:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send' is clickable
+
+2018-03-14 18:53:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send' is clicked on
+
+2018-03-14 18:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send' is clicked on
+
+2018-03-14 18:53:32 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_OK' is clickable
+
+2018-03-14 18:53:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_OK' is clickable
+
+2018-03-14 18:53:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_OK' is clicked on
+
+2018-03-14 18:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_OK' is clicked on
+
+2018-03-14 18:53:38 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send for Wet Signature' is clickable
+
+2018-03-14 18:53:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send for Wet Signature' is clickable
+
+2018-03-14 18:53:43 - [TEST_STEP][PASSED] - Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Other Pa)): Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Other Pa' is: 'In Authoring | Other Party Review'
+
+2018-03-14 18:53:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Authoring  Other Pa' is: 'In Authoring | Other Party Review'
+
+2018-03-14 18:53:43 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'In Authoring | Other Party Review' and expected object 'In Authoring | Other Party Review' are equal
+
+2018-03-14 18:53:43 - [MESSAGE][PASSED] - Actual object 'In Authoring | Other Party Review' and expected object 'In Authoring | Other Party Review' are equal
+
+2018-03-14 18:53:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send for Wet Signature' is clicked on
+
+2018-03-14 18:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send for Wet Signature' is clicked on
+
+2018-03-14 18:53:43 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_name-input-0'
+
+2018-03-14 18:53:45 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_name-input-0'
+
+2018-03-14 18:53:45 - [TEST_STEP][PASSED] - setText: Text 'bashah@apttus.com' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_email-input-0'
+
+2018-03-14 18:53:46 - [MESSAGE][PASSED] - Text 'bashah@apttus.com' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_email-input-0'
+
+2018-03-14 18:53:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-14 18:53:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-14 18:53:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/span_Additional Details' is clicked on
+
+2018-03-14 18:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/span_Additional Details' is clicked on
+
+2018-03-14 18:53:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-14 18:53:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-14 18:53:56 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_Subject'
+
+2018-03-14 18:53:57 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/input_Subject'
+
+2018-03-14 18:53:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/div_note-editable panel-body' is clicked on
+
+2018-03-14 18:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/div_note-editable panel-body' is clicked on
+
+2018-03-14 18:53:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:53:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:53:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/selectTemplate' is clicked on
+
+2018-03-14 18:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/selectTemplate' is clicked on
+
+2018-03-14 18:53:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:54:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:54:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/md-option_Send for Signature (_1' is clicked on
+
+2018-03-14 18:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/md-option_Send for Signature (_1' is clicked on
+
+2018-03-14 18:54:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-14 18:54:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-14 18:54:04 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send' is clickable
+
+2018-03-14 18:54:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send' is clickable
+
+2018-03-14 18:54:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send' is clicked on
+
+2018-03-14 18:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Send' is clicked on
+
+2018-03-14 18:54:05 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_OK' is clickable
+
+2018-03-14 18:54:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_OK' is clickable
+
+2018-03-14 18:54:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_OK' is clicked on
+
+2018-03-14 18:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_OK' is clicked on
+
+2018-03-14 18:54:08 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Mark as Signed' is clickable
+
+2018-03-14 18:54:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Mark as Signed' is clickable
+
+2018-03-14 18:54:12 - [TEST_STEP][PASSED] - Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Signatures  Pending)): Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Signatures  Pending' is: 'In Signatures | Pending Other Party Signature'
+
+2018-03-14 18:54:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Signatures  Pending' is: 'In Signatures | Pending Other Party Signature'
+
+2018-03-14 18:54:12 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'In Signatures | Pending Other Party Signature' and expected object 'In Signatures | Pending Other Party Signature' are equal
+
+2018-03-14 18:54:12 - [MESSAGE][PASSED] - Actual object 'In Signatures | Pending Other Party Signature' and expected object 'In Signatures | Pending Other Party Signature' are equal
+
+2018-03-14 18:54:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Mark as Signed' is clicked on
+
+2018-03-14 18:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Mark as Signed' is clicked on
+
+2018-03-14 18:54:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Yes' is clickable
+
+2018-03-14 18:54:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Yes' is clickable
+
+2018-03-14 18:54:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Yes' is clicked on
+
+2018-03-14 18:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Yes' is clicked on
+
+2018-03-14 18:54:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Close' is clickable
+
+2018-03-14 18:54:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Close' is clickable
+
+2018-03-14 18:54:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Close' is clicked on
+
+2018-03-14 18:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Apttus - Contract Lifecycle Ma (4)/button_Close' is clicked on
+
+2018-03-14 18:54:14 - [TEST_STEP][PASSED] - Statement - statusAuthoring = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Signatures  Fully S)): Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Signatures  Fully S' is: 'In Signatures | Fully Signed'
+
+2018-03-14 18:54:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Apttus - Contract Lifecycle Ma (8)/md-chip_In Signatures  Fully S' is: 'In Signatures | Fully Signed'
+
+2018-03-14 18:54:18 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'In Signatures | Fully Signed' and expected object 'In Signatures | Fully Signed' are equal
+
+2018-03-14 18:54:18 - [MESSAGE][PASSED] - Actual object 'In Signatures | Fully Signed' and expected object 'In Signatures | Fully Signed' are equal
+
+2018-03-14 18:54:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-14 18:54:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-14 18:44:47 - [TEST_SUITE][FAILED] - SNOW: Test Cases/Main Test Cases/apttus11 FAILED because (of) Unable to click on object 'Object Repository/Page_Apttus - Quote Page (9)/button_Yes' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\bashah\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: a2e4b3a7b1ff3fbd5e2fef2ac4261472)]]></system-out>
+      <system-err><![CDATA[2018-03-14 18:44:47 - [TEST_SUITE][FAILED] - SNOW: Test Cases/Main Test Cases/apttus11 FAILED because (of) Unable to click on object 'Object Repository/Page_Apttus - Quote Page (9)/button_Yes' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\bashah\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: a2e4b3a7b1ff3fbd5e2fef2ac4261472)]]></system-err>
+   </testsuite>
+</testsuites>

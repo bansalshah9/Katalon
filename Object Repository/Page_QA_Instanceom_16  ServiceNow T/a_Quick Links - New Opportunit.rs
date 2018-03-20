@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Quick Links - New Opportunit</name>
+   <tag></tag>
+   <elementGuidId>eb509db1-efcd-47b5-a626-754aa36777c6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>!editMode</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-href</name>
+      <type>Main</type>
+      <value>sales_opportunity.do?sys_id=-1&amp;sysparm_stack=sales_opportunity_list.do</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>gsft_main</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sn-widget-list-item sn-widget-list-item_hidden-action</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>sales_opportunity.do?sys_id=-1&amp;sysparm_stack=sales_opportunity_list.do</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Quick Links - New Opportunity</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gsft_nav&quot;)/div[@class=&quot;sn-aside-filler active-view-favorites&quot;]/magellan-favorites-list[@class=&quot;navigator-view sn-widget-list_indentation ng-isolate-scope&quot;]/div[@class=&quot;sn-aside-filler nav-favorites-list ng-pristine ng-untouched ng-valid ng-isolate-scope ui-sortable ng-not-empty ui-sortable-disabled&quot;]/div[@class=&quot;sn-widget ng-scope ui-sortable-handle&quot;]/div[@class=&quot;sn-widget-list_v2 sn-widget-list_dense ng-scope&quot;]/a[@class=&quot;sn-widget-list-item sn-widget-list-item_hidden-action&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

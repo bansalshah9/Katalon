@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_fieldtype-wrapper</name>
+   <tag></tag>
+   <elementGuidId>134c90c1-db20-47aa-a3ad-8011d40cca0d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fieldtype-wrapper</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/div[@class=&quot;content-container&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;layout-single-col ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-cart-wrapper main-cart-wrapper--overflow ng-scope&quot;]/div[@class=&quot;main-cart-container--positioning&quot;]/div[@class=&quot;main-cart-container&quot;]/table[1]/tbody[1]/tr[@class=&quot;row line-item-row is--open prim-attr-row ng-scope&quot;]/td[@class=&quot;cell main-cart-col QUANTITY main-cart-col--quantity&quot;]/ul[@class=&quot;submenu submenu--optionlines ng-scope&quot;]/li[@class=&quot;option-line-col ng-scope&quot;]/div[@class=&quot;fieldtype-wrapper&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

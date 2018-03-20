@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Firefox 58.0,,2018-02-23 11:12:48,2018-02-23 11:17:27,4m - 38.906s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/testdata,Firefox 58.0,,2018-02-23 11:12:49,2018-02-23 11:15:56,3m - 7.468s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data),Firefox 58.0,,2018-02-23 11:12:49,2018-02-23 11:12:51,1.466s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Firefox 58.0,,2018-02-23 11:12:51,2018-02-23 11:15:56,3m - 5.250s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/testdata,Firefox 58.0,,2018-02-23 11:15:56,2018-02-23 11:17:16,1m - 19.553s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data),Firefox 58.0,,2018-02-23 11:15:56,2018-02-23 11:15:56,0.085s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Firefox 58.0,,2018-02-23 11:15:56,2018-02-23 11:17:16,1m - 19.411s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/testdata,Firefox 58.0,,2018-02-23 11:17:16,2018-02-23 11:17:26,10.615s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data),Firefox 58.0,,2018-02-23 11:17:16,2018-02-23 11:17:16,0.077s,PASSED
+Statement - For (def index : (0..(data.getRowNumbers() - 1))),Firefox 58.0,,2018-02-23 11:17:16,2018-02-23 11:17:26,10.454s,FAILED

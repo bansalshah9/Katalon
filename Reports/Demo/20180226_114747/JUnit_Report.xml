@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo" time="275" tests="0" failures="3" errors="0">
+   <testsuite name="Demo" tests="0" failures="3" errors="0" time="275" timestamp="2018-02-26 11:47:53" hostname="bashah - L005401.Apttus.local" id="Test Suites/Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180226_114747"/>
+         <property name="logFiles" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180226_114747\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180226_114747\\1519625966428.png, C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180226_114747\\1519626055632.png, C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180226_114747\\1519626147140.png"/>
+         <property name="hostName" value="bashah - L005401.Apttus.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.13.10.136"/>
+         <property name="sessionId" value="4b445f90-c2d0-4725-8e80-b1d30e6381f6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/testdata" classname="Test Cases/Main Test Cases/testdata" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , &quot;'&quot; , '2/22/2018' , &quot;'&quot; , ', ' , &quot;'&quot; , '00Nd0000009K7Xb' , &quot;'&quot; , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)"/>
+         <system-out><![CDATA[2018-02-26 11:47:54 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)
+
+2018-02-26 11:47:56 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data): Reading excel file with source file 'C:\Users\bashah\Documents\data.xlsx' and sheet name 'Sheet1'
+
+2018-02-26 11:47:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-26 11:48:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-26 11:48:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-26 11:48:13 - [MESSAGE][PASSED] - Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-26 11:48:13 - [TEST_STEP][PASSED] - setText: Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-26 11:48:13 - [MESSAGE][PASSED] - Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-26 11:48:13 - [TEST_STEP][PASSED] - setText: Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:48:14 - [MESSAGE][PASSED] - Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:48:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:48:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:48:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-26 11:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-26 11:48:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-26 11:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-26 11:48:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:48:34 - [MESSAGE][PASSED] - All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:48:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:48:35 - [MESSAGE][PASSED] - All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:48:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-26 11:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-26 11:48:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-26 11:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-26 11:48:45 - [TEST_STEP][PASSED] - setText: Text 'testagreement' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-26 11:48:45 - [MESSAGE][PASSED] - Text 'testagreement' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-26 11:48:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-26 11:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-26 11:48:46 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:48:46 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:48:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-26 11:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-26 11:48:47 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-26 11:48:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-26 11:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-26 11:48:48 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:48:48 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:48:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-26 11:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-26 11:48:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-26 11:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-26 11:48:50 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:48:50 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:48:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Search  Salesforce - Unlimited/a_Ruth Margerison' is clicked on
+
+2018-02-26 11:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Search  Salesforce - Unlimited/a_Ruth Margerison' is clicked on
+
+2018-02-26 11:48:52 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-26 11:48:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-26 11:48:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-26 11:48:53 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:48:53 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:48:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-26 11:48:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-26 11:48:55 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-26 11:48:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-26 11:48:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-26 11:48:55 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)
+
+2018-02-26 11:49:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)
+[[ATTACHMENT|C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180226_114747\\1519625966428.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-26 11:47:54 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/testdata" classname="Test Cases/Main Test Cases/testdata" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , &quot;'&quot; , '2/22/2018' , &quot;'&quot; , ', ' , &quot;'&quot; , '00Nd0000009K7Xb' , &quot;'&quot; , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)"/>
+         <system-out><![CDATA[2018-02-26 11:49:26 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)
+
+2018-02-26 11:49:26 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data): Reading excel file with source file 'C:\Users\bashah\Documents\data.xlsx' and sheet name 'Sheet1'
+
+2018-02-26 11:49:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-26 11:49:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-26 11:49:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-26 11:49:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-26 11:49:42 - [MESSAGE][PASSED] - Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-26 11:49:42 - [TEST_STEP][PASSED] - setText: Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-26 11:49:42 - [MESSAGE][PASSED] - Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-26 11:49:42 - [TEST_STEP][PASSED] - setText: Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:49:42 - [MESSAGE][PASSED] - Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:49:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:49:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:49:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-26 11:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-26 11:49:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-26 11:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-26 11:50:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:50:01 - [MESSAGE][PASSED] - All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:50:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:50:03 - [MESSAGE][PASSED] - All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:50:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-26 11:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-26 11:50:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-26 11:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-26 11:50:13 - [TEST_STEP][PASSED] - setText: Text 'testagreement1' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-26 11:50:13 - [MESSAGE][PASSED] - Text 'testagreement1' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-26 11:50:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-26 11:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-26 11:50:13 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:50:13 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:50:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-26 11:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-26 11:50:15 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-26 11:50:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-26 11:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-26 11:50:16 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:50:16 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:50:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-26 11:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-26 11:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-26 11:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-26 11:50:18 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:50:18 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Search  Salesforce - Unlimited/a_Ruth Margerison' is clicked on
+
+2018-02-26 11:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Search  Salesforce - Unlimited/a_Ruth Margerison' is clicked on
+
+2018-02-26 11:50:21 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-26 11:50:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-26 11:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-26 11:50:21 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:50:22 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:50:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-26 11:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-26 11:50:24 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-26 11:50:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-26 11:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-26 11:50:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)
+
+2018-02-26 11:50:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)
+[[ATTACHMENT|C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180226_114747\\1519626055632.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-26 11:49:26 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/testdata" classname="Test Cases/Main Test Cases/testdata" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , &quot;'&quot; , '2/22/2018' , &quot;'&quot; , ', ' , &quot;'&quot; , '00Nd0000009K7Xb' , &quot;'&quot; , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)"/>
+         <system-out><![CDATA[2018-02-26 11:50:55 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)
+
+2018-02-26 11:50:55 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data): Reading excel file with source file 'C:\Users\bashah\Documents\data.xlsx' and sheet name 'Sheet1'
+
+2018-02-26 11:50:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-26 11:50:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-26 11:51:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-26 11:51:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-26 11:51:11 - [MESSAGE][PASSED] - Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-26 11:51:11 - [TEST_STEP][PASSED] - setText: Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-26 11:51:11 - [MESSAGE][PASSED] - Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-26 11:51:11 - [TEST_STEP][PASSED] - setText: Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:51:12 - [MESSAGE][PASSED] - Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:51:12 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:51:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-26 11:51:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-26 11:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-26 11:51:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-26 11:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-26 11:51:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:51:31 - [MESSAGE][PASSED] - All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:51:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:51:32 - [MESSAGE][PASSED] - All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-26 11:51:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-26 11:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-26 11:51:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-26 11:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-26 11:51:44 - [TEST_STEP][PASSED] - setText: Text 'testagreement2' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-26 11:51:44 - [MESSAGE][PASSED] - Text 'testagreement2' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-26 11:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-26 11:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-26 11:51:44 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:51:44 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-26 11:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-26 11:51:47 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-26 11:51:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-26 11:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-26 11:51:47 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:51:47 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:51:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-26 11:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-26 11:51:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-26 11:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-26 11:51:50 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:51:50 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:51:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Search  Salesforce - Unlimited/a_Ruth Margerison' is clicked on
+
+2018-02-26 11:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Search  Salesforce - Unlimited/a_Ruth Margerison' is clicked on
+
+2018-02-26 11:51:52 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-26 11:51:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-26 11:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-26 11:51:53 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-26 11:51:53 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-26 11:51:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-26 11:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-26 11:51:55 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-26 11:51:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-26 11:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-26 11:51:55 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)
+
+2018-02-26 11:52:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)
+[[ATTACHMENT|C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180226_114747\\1519626147140.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-26 11:50:55 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-26 11:47:53 - [TEST_SUITE][FAILED] - Demo: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-26 11:47:53 - [TEST_SUITE][FAILED] - Demo: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' located by 'By.xpath: //a[@href = concat('javascript:DatePicker.insertDate(' , "'" , '2/22/2018' , "'" , ', ' , "'" , '00Nd0000009K7Xb' , "'" , ', true);') and (text() = '2/22/2018' or . = '2/22/2018')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

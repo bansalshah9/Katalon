@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkBoxSelect</name>
+   <tag></tag>
+   <elementGuidId>cbce4c6c-cf01-4e8f-ab27-6ce289ea199e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[6]/md-dialog/md-dialog-content[1]/form/div/div/div/div/div/div/table/tbody/tr[1]/td[1]/div/md-radio-group/md-radio-button/div[1]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

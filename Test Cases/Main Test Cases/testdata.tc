@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>testdata</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17254998-074b-446e-9f9d-aaa795856d2c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0c07d50f-6589-4b31-b106-9d891a0ff4ed</id>
+      <masked>false</masked>
+      <name>demo_usn</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e4284b0-5158-4b02-b52b-72281ddaf365</id>
+      <masked>false</masked>
+      <name>demo_pass</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a33829c4-b20e-41a3-81fb-728de4024738</id>
+      <masked>false</masked>
+      <name>agreement_name</name>
+   </variable>
+</TestCaseEntity>

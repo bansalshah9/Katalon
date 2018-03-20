@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Billing Country</name>
+   <tag></tag>
+   <elementGuidId>926708f0-6e1e-4e29-9a8a-82243c15518e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>apt-field-label-txt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-focus</name>
+      <type>Main</type>
+      <value>vm.showFieldTooltip($event)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-mouseenter</name>
+      <type>Main</type>
+      <value>vm.showFieldTooltip($event)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-mouseleave</name>
+      <type>Main</type>
+      <value>vm.hideFieldTooltip()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-blur</name>
+      <type>Main</type>
+      <value>vm.hideFieldTooltip()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Billing Country:</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;md-panel-outer-wrapper md-panel-is-showing&quot;]/md-tooltip[@class=&quot;ands-tooltip apt-quick-view-tooltip md-panel md-tooltip md-show md-origin-bottom _md-panel-position-adjusted&quot;]/div[@class=&quot;apt-quick-view-content&quot;]/div[@class=&quot;apt-extensible-component layout-1521091084985-15__custom layout-row&quot;]/div[@class=&quot;apt-container layout-row flex&quot;]/div[@class=&quot;apt-section section-1521091084985-43__internal draggable flex&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component detailsView component-1521091084985-151__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/apt-details[1]/div[@class=&quot;layout-row flex&quot;]/div[@class=&quot;apt-details layout-row flex&quot;]/div[@class=&quot;apt-section section-1521091084985-42__internal flex draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component detailsField component-1521091084985-154__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/div[@class=&quot;apt-details-field&quot;]/div[@class=&quot;input-fieldset layout-column flex&quot;]/div[@class=&quot;ands-subheader apt-focus layout-row&quot;]/apt-field-label[1]/label[@class=&quot;apt-field-label md-no-float layout-row flex&quot;]/span[@class=&quot;apt-field-label-txt&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

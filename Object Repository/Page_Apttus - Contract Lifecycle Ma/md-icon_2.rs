@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>md-icon_2</name>
+   <tag></tag>
+   <elementGuidId>f2d7e219-0b8a-4fe5-a8f4-54a3278b677c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>md-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>md-svg-src</name>
+      <type>Main</type>
+      <value>data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxnPjxwb2x5Z29uIHBvaW50cz0iMTUuNCw3LjQgMTQsNiA4LDEyIDE0LDE4IDE1LjQsMTYuNiAxMC44LDEyICIvPjwvZz48L3N2Zz4=</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;clm layout-fill layout-column&quot;]/main[@class=&quot;page-main flex&quot;]/div[1]/section[@class=&quot;agreement-details&quot;]/div[@class=&quot;apt-extensible-component layout-row layout-1520495327265-2__custom&quot;]/div[@class=&quot;apt-container layout-row flex&quot;]/div[@class=&quot;apt-section section-1520495327265-28__internal flex draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1520495327265-27__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1520495327265-26__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component tabsView component-1520495327264-187__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/div[@class=&quot;apt-tabs-view layout-row flex&quot;]/md-tabs[@class=&quot;apt-tabs layout-fill layout-column&quot;]/md-tabs-wrapper[1]/md-prev-button[1]/md-icon[1]</value>
+   </webElementProperties>
+</WebElementEntity>

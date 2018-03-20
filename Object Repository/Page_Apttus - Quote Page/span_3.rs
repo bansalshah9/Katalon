@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_3</name>
+   <tag></tag>
+   <elementGuidId>915315a9-7726-4b98-addb-56a19f8e2f7b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>+3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-content-5&quot;)/div[1]/div[@class=&quot;tab-section apt-section section-1521097375169-14__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component cpqQuoteTabApprovals component-1521097375169-102__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/cpq-quote-tab-approvals[1]/div[@class=&quot;quote-tab-approval-container&quot;]/iwa-runtime[1]/div[@class=&quot;approval layout-fill layout-column&quot;]/div[@class=&quot;layout-column flex&quot;]/md-content[@class=&quot;_md layout-xs-row layout-gt-xs-row&quot;]/div[@class=&quot;iwa-content layout-xs-column layout-gt-xs-column&quot;]/rule-based-view[1]/div[@class=&quot;rule-based-container layout-xs-column layout-gt-xs-row&quot;]/div[@class=&quot;rule-based-approvals par-flow layout-xs-column layout-gt-xs-column layout-align-space-between-stretch&quot;]/div[@class=&quot;rule-steps&quot;]/md-card[@class=&quot;parallel rule-step&quot;]/md-card-content[1]/approver-collage[@class=&quot;approver-list&quot;]/div[@class=&quot;approver-initial layout-align-end-center layout-row flex&quot;]/span[3]/div[@class=&quot;md-fab md-mini md-action-buttons&quot;]/button[@class=&quot;md-button&quot;]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Submit</name>
+   <tag></tag>
+   <elementGuidId>861fc89a-28c4-480c-a3d8-347150e36d86</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ands-btn ands-primary md-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>vm.submitRuleDrivenProcess()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>!vm.canSubmitRuleDrivenProcess</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>vm.isProcessPreviewed</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-content-5&quot;)/div[1]/div[@class=&quot;tab-section apt-section section-1520403117653-12__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component cpqQuoteTabApprovals component-1520403117653-79__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/cpq-quote-tab-approvals[1]/div[@class=&quot;quote-tab-approval-container&quot;]/iwa-runtime[1]/div[@class=&quot;approval layout-fill layout-column&quot;]/div[@class=&quot;layout-column flex&quot;]/footer[@class=&quot;iwa-footer layout-align-end-center layout-row&quot;]/button[@class=&quot;ands-btn ands-primary md-button&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

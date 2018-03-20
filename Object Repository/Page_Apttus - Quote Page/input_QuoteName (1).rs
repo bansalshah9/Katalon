@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_QuoteName (1)</name>
+   <tag></tag>
+   <elementGuidId>debbdad7-6aed-4f11-b6de-2cc0b8fb8878</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ands-input ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-maxlength ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model-options</name>
+      <type>Main</type>
+      <value>{ updateOn: 'blur' }</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-required</name>
+      <type>Main</type>
+      <value>::vm.isRequired()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>vm.isDisabled()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-maxlength</name>
+      <type>Main</type>
+      <value>255</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>255</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>vm.ngModel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-focus</name>
+      <type>Main</type>
+      <value>vm.showCharacterCount = true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-blur</name>
+      <type>Main</type>
+      <value>vm.showCharacterCount = false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>QuoteName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>area-label</name>
+      <type>Main</type>
+      <value>Proposal Name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;cpq layout-fill layout-column&quot;]/main[@class=&quot;page-main flex&quot;]/div[1]/div[@class=&quot;quote md-inline-form layout-column&quot;]/div[@class=&quot;apt-extensible-component layout-row layout-1519895246036-20__custom&quot;]/div[@class=&quot;apt-container layout-row flex&quot;]/div[@class=&quot;apt-section section-1519895246036-64__internal flex draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component formView component-1519895246035-465__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/apt-form[1]/div[@class=&quot;layout-row flex&quot;]/form[@class=&quot;apt-form ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-minlength ng-valid-mindate ng-valid-maxdate ng-valid-filtered ng-valid-valid ng-valid-max ng-valid-pattern layout-row flex&quot;]/div[@class=&quot;apt-section section-1519895246036-63__internal draggable flex&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1519895246036-56__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component formField component-1519895246035-466__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/div[@class=&quot;apt-form-field&quot;]/div[@class=&quot;input-fieldset&quot;]/apt-text-input-field[@class=&quot;inputs ng-pristine ng-untouched ng-valid ng-empty layout-column&quot;]/div[@class=&quot;layout-column&quot;]/div[@class=&quot;apt-input-container&quot;]/div[@class=&quot;apt-input-row layout-row&quot;]/input[@class=&quot;ands-input ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-maxlength ng-touched&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

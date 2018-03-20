@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_ss-addcart</name>
+   <tag></tag>
+   <elementGuidId>a9fedd7d-66af-4d2f-9ee1-782e79b89a9b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ss-addcart</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/div[@class=&quot;content-container&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;layout--rightcol ng-scope&quot;]/div[@class=&quot;sidebar--right sidebar&quot;]/div[@class=&quot;ng-scope&quot;]/configuration-summary[@class=&quot;ng-scope&quot;]/div[@class=&quot;sidebar--configure-product&quot;]/div[@class=&quot;summary-pane&quot;]/div[@class=&quot;display-actions-block-side&quot;]/button[@class=&quot;secondary ng-scope&quot;]/i[@class=&quot;ss-addcart&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

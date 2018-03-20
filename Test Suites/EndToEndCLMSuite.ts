@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>EndToEndCLMSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e2902406-aed0-48a1-a671-8ddb87812301</testSuiteGuid>
+   <testCaseLink>
+      <guid>5801432d-f945-4411-83c2-192c2df578cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Renewal Quote/EndToEndCLM</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7c26ad26-902d-48be-b002-c530fee0be0a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Credentials</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7c26ad26-902d-48be-b002-c530fee0be0a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>d66ea3e5-80b5-4073-90e3-f9ce1e16591f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7c26ad26-902d-48be-b002-c530fee0be0a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>28d795f0-47e0-40b6-a6de-58f770eadc85</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

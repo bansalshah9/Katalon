@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>md-ink-bar_md-right</name>
+   <tag></tag>
+   <elementGuidId>a206ab64-45b2-4ba5-8a10-082fbb70bb62</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>md-ink-bar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md-right</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;cpq layout-fill layout-column&quot;]/main[@class=&quot;page-main flex&quot;]/div[1]/section[@class=&quot;quote-details&quot;]/div[@class=&quot;apt-extensible-component layout-row layout-1521444409856-3__custom&quot;]/div[@class=&quot;apt-container layout-row flex&quot;]/div[@class=&quot;apt-section section-1521444409856-19__internal flex draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1521444409856-18__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1521444409856-17__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component tabsView component-1521444409856-72__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/div[@class=&quot;apt-tabs-view layout-row flex&quot;]/md-tabs[@class=&quot;apt-tabs layout-fill layout-column&quot;]/md-tabs-wrapper[1]/md-tabs-canvas[@class=&quot;md-paginated&quot;]/md-pagination-wrapper[1]/md-ink-bar[@class=&quot;md-right&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo" time="197" tests="3" failures="0" errors="0">
+   <testsuite name="Demo" tests="3" failures="0" errors="0" time="197" timestamp="2018-02-23 11:26:05" hostname="bashah - L005401.Apttus.local" id="Test Suites/Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180223_112601"/>
+         <property name="logFiles" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180223_112601\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bashah - L005401.Apttus.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.13.10.136"/>
+         <property name="sessionId" value="58f95b56-b576-443c-ab1f-6df9127bc3c3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/testdata" classname="Test Cases/Main Test Cases/testdata" status="PASSED">
+         <system-out><![CDATA[2018-02-23 11:26:06 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata
+
+2018-02-23 11:26:07 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data): Reading excel file with source file 'C:\Users\bashah\Documents\data.xlsx' and sheet name 'Sheet1'
+
+2018-02-23 11:26:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-23 11:26:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-23 11:26:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:26:22 - [MESSAGE][PASSED] - Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:26:22 - [TEST_STEP][PASSED] - setText: Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:26:22 - [MESSAGE][PASSED] - Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:26:22 - [TEST_STEP][PASSED] - setText: Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:26:22 - [MESSAGE][PASSED] - Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:26:22 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:26:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:26:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-23 11:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-23 11:26:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-23 11:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-23 11:26:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:26:43 - [MESSAGE][PASSED] - All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:26:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:26:44 - [MESSAGE][PASSED] - All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:26:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-23 11:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-23 11:26:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-23 11:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-23 11:26:54 - [TEST_STEP][PASSED] - setText: Text 'testagreement' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-23 11:26:54 - [MESSAGE][PASSED] - Text 'testagreement' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-23 11:26:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-23 11:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-23 11:26:55 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:26:55 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:26:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-23 11:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-23 11:26:56 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-23 11:26:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-23 11:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-23 11:26:57 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:26:57 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:26:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-23 11:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-23 11:26:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-23 11:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-23 11:27:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-23 11:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-23 11:27:00 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:27:01 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:27:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-23 11:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-23 11:27:03 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-23 11:27:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-23 11:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-23 11:27:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:27:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7XZ' is clicked on
+
+2018-02-23 11:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7XZ' is clicked on
+
+2018-02-23 11:27:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:27:04 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/textarea_00Nd0000009K8Q4'
+
+2018-02-23 11:27:04 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/textarea_00Nd0000009K8Q4'
+
+2018-02-23 11:27:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_AfghanistanAland Island'  using regular expression
+
+2018-02-23 11:27:10 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_AfghanistanAland Island'  using regular expression
+
+2018-02-23 11:27:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_00Nd0000009K8P9_right_arro' is clicked on
+
+2018-02-23 11:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_00Nd0000009K8P9_right_arro' is clicked on
+
+2018-02-23 11:27:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/td_--None--YesNonew picklist(0' is clicked on
+
+2018-02-23 11:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/td_--None--YesNonew picklist(0' is clicked on
+
+2018-02-23 11:27:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:27:11 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:27:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:27:12 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:27:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:27:12 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:27:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:27:13 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:27:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_2'  using regular expression
+
+2018-02-23 11:27:13 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_2'  using regular expression
+
+2018-02-23 11:27:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_save' is clicked on
+
+2018-02-23 11:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_save' is clicked on
+
+2018-02-23 11:27:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-23 11:27:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/testdata" classname="Test Cases/Main Test Cases/testdata" status="PASSED">
+         <system-out><![CDATA[2018-02-23 11:27:21 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata
+
+2018-02-23 11:27:21 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data): Reading excel file with source file 'C:\Users\bashah\Documents\data.xlsx' and sheet name 'Sheet1'
+
+2018-02-23 11:27:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-23 11:27:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-23 11:27:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:27:33 - [MESSAGE][PASSED] - Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:27:33 - [TEST_STEP][PASSED] - setText: Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:27:33 - [MESSAGE][PASSED] - Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:27:33 - [TEST_STEP][PASSED] - setText: Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:27:33 - [MESSAGE][PASSED] - Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:27:33 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:27:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:27:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-23 11:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-23 11:27:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-23 11:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-23 11:27:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:27:50 - [MESSAGE][PASSED] - All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:27:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:27:51 - [MESSAGE][PASSED] - All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:27:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-23 11:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-23 11:27:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-23 11:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-23 11:28:00 - [TEST_STEP][PASSED] - setText: Text 'testagreement1' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-23 11:28:00 - [MESSAGE][PASSED] - Text 'testagreement1' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-23 11:28:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-23 11:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-23 11:28:00 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:28:00 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:28:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-23 11:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-23 11:28:02 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-23 11:28:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-23 11:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-23 11:28:03 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:28:03 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:28:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-23 11:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-23 11:28:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-23 11:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-23 11:28:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-23 11:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-23 11:28:05 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:28:05 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:28:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-23 11:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-23 11:28:08 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-23 11:28:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-23 11:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-23 11:28:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:28:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7XZ' is clicked on
+
+2018-02-23 11:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7XZ' is clicked on
+
+2018-02-23 11:28:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:28:09 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/textarea_00Nd0000009K8Q4'
+
+2018-02-23 11:28:10 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/textarea_00Nd0000009K8Q4'
+
+2018-02-23 11:28:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_AfghanistanAland Island'  using regular expression
+
+2018-02-23 11:28:15 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_AfghanistanAland Island'  using regular expression
+
+2018-02-23 11:28:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_00Nd0000009K8P9_right_arro' is clicked on
+
+2018-02-23 11:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_00Nd0000009K8P9_right_arro' is clicked on
+
+2018-02-23 11:28:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/td_--None--YesNonew picklist(0' is clicked on
+
+2018-02-23 11:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/td_--None--YesNonew picklist(0' is clicked on
+
+2018-02-23 11:28:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:28:16 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:28:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:28:17 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:28:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:28:17 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:28:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:28:17 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:28:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_2'  using regular expression
+
+2018-02-23 11:28:18 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_2'  using regular expression
+
+2018-02-23 11:28:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_save' is clicked on
+
+2018-02-23 11:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_save' is clicked on
+
+2018-02-23 11:28:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-23 11:28:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/testdata" classname="Test Cases/Main Test Cases/testdata" status="PASSED">
+         <system-out><![CDATA[2018-02-23 11:28:20 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata
+
+2018-02-23 11:28:21 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data): Reading excel file with source file 'C:\Users\bashah\Documents\data.xlsx' and sheet name 'Sheet1'
+
+2018-02-23 11:28:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-23 11:28:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-23 11:28:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:28:31 - [MESSAGE][PASSED] - Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:28:31 - [TEST_STEP][PASSED] - setText: Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:28:31 - [MESSAGE][PASSED] - Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:28:31 - [TEST_STEP][PASSED] - setText: Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:28:32 - [MESSAGE][PASSED] - Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:28:32 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:28:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:28:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-23 11:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-23 11:28:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-23 11:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-23 11:28:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:28:51 - [MESSAGE][PASSED] - All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:28:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:28:52 - [MESSAGE][PASSED] - All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:28:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-23 11:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-23 11:28:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-23 11:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-23 11:29:01 - [TEST_STEP][PASSED] - setText: Text 'testagreement2' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-23 11:29:02 - [MESSAGE][PASSED] - Text 'testagreement2' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-23 11:29:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-23 11:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-23 11:29:02 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:29:03 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:29:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-23 11:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-23 11:29:05 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-23 11:29:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-23 11:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-23 11:29:06 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:29:06 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:29:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-23 11:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-23 11:29:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-23 11:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-23 11:29:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-23 11:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-23 11:29:08 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:29:08 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:29:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-23 11:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-23 11:29:10 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-23 11:29:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-23 11:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-23 11:29:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:29:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7XZ' is clicked on
+
+2018-02-23 11:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7XZ' is clicked on
+
+2018-02-23 11:29:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:29:11 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/textarea_00Nd0000009K8Q4'
+
+2018-02-23 11:29:11 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/textarea_00Nd0000009K8Q4'
+
+2018-02-23 11:29:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_AfghanistanAland Island'  using regular expression
+
+2018-02-23 11:29:17 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_AfghanistanAland Island'  using regular expression
+
+2018-02-23 11:29:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_00Nd0000009K8P9_right_arro' is clicked on
+
+2018-02-23 11:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_00Nd0000009K8P9_right_arro' is clicked on
+
+2018-02-23 11:29:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/td_--None--YesNonew picklist(0' is clicked on
+
+2018-02-23 11:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/td_--None--YesNonew picklist(0' is clicked on
+
+2018-02-23 11:29:18 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:29:19 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:29:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:29:19 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:29:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:29:20 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:29:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:29:20 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:29:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_2'  using regular expression
+
+2018-02-23 11:29:21 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_2'  using regular expression
+
+2018-02-23 11:29:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_save' is clicked on
+
+2018-02-23 11:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_save' is clicked on
+
+2018-02-23 11:29:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-23 11:29:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-23 11:26:05 - [TEST_SUITE][PASSED] - Demo: Test Cases/Main Test Cases/testdata]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

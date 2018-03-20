@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>md-icon_build</name>
+   <tag></tag>
+   <elementGuidId>fb775313-488c-4c82-8cec-5ea692913aab</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>md-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ui-sref</name>
+      <type>Main</type>
+      <value>configure.bundle({txnPrimaryLineNumber: lineItem.txnPrimaryLineNumber})</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ands-icon-material ands-icons ng-binding material-icons line-item__icon--configure icon-font-size build-icon-rotate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#/configure/10002</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>build</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/div[@class=&quot;content-container&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;layout-single-col ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-cart-wrapper main-cart-wrapper--overflow ng-scope&quot;]/div[@class=&quot;main-cart-container--positioning&quot;]/div[@class=&quot;main-cart-container&quot;]/table[1]/tbody[1]/tr[@class=&quot;row line-item-row is--open prim-attr-row ng-scope&quot;]/td[@class=&quot;cell main-cart-col DETAIL main-cart-col--detail&quot;]/div[@class=&quot;fieldtype-wrapper fieldtype-wrapper--DETAIL product-top-row&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;line-item-name&quot;]/h3[@class=&quot;align-left&quot;]/span[@class=&quot;ng-scope&quot;]/md-icon[@class=&quot;ands-icon-material ands-icons ng-binding material-icons line-item__icon--configure icon-font-size build-icon-rotate&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

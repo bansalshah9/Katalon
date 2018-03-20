@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>apttus11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a62d5e6e-3437-49d5-a7a7-5369de176a8d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62c8bf10-38d4-4a29-9ff0-f827534958e4</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9f5668c3-f2cc-4f10-b0c3-29d154c1cb83</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a21ccdc4-bbe6-4917-9cdc-aa595d27d3cb</id>
+      <masked>false</masked>
+      <name>Product</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ab96e9da-83f5-49d9-b0ef-53efadf42574</id>
+      <masked>false</masked>
+      <name>CPQURL</name>
+   </variable>
+</TestCaseEntity>

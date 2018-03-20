@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Approve</name>
+   <tag></tag>
+   <elementGuidId>1bc512f9-2c67-4d5f-a979-8c9dccda8367</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ands-btn ands-primary md-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>vm.isApprove</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>vm.setRequestAs('Approve')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Approve</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-content-5&quot;)/div[1]/div[@class=&quot;tab-section apt-section section-1521100057952-14__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component cpqQuoteTabApprovals component-1521100057952-102__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/cpq-quote-tab-approvals[1]/div[@class=&quot;quote-tab-approval-container&quot;]/iwa-runtime[1]/div[@class=&quot;approval layout-fill layout-column&quot;]/div[@class=&quot;layout-column flex&quot;]/md-content[@class=&quot;_md layout-xs-row layout-gt-xs-row&quot;]/approval-action-dialog[1]/div[@class=&quot;action-section&quot;]/div[@class=&quot;action-content&quot;]/div[@class=&quot;action-footer layout-align-end-stretch layout-row&quot;]/button[@class=&quot;ands-btn ands-primary md-button&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

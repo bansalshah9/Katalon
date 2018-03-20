@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,,,2018-02-22 13:27:54,2018-02-22 13:27:58,3.808s,ERROR
+,,,,,,
+Test Cases/Main Test Cases/testdata,,,2018-02-22 13:27:55,2018-02-22 13:27:57,1.730s,ERROR
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data),,,2018-02-22 13:27:57,2018-02-22 13:27:57,0.024s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/testdata,,,2018-02-22 13:27:57,2018-02-22 13:27:57,0.409s,ERROR
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data),,,2018-02-22 13:27:57,2018-02-22 13:27:57,0.017s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/testdata,,,2018-02-22 13:27:57,2018-02-22 13:27:57,0.468s,ERROR
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data),,,2018-02-22 13:27:57,2018-02-22 13:27:57,0.003s,PASSED

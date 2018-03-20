@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo" time="100" tests="1" failures="2" errors="0">
+   <testsuite name="Demo" tests="1" failures="2" errors="0" time="100" timestamp="2018-02-23 11:40:39" hostname="bashah - L005401.Apttus.local" id="Test Suites/Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180223_114034"/>
+         <property name="logFiles" value="C:\\Users\\bashah\\Katalon Studio\\TestdataAutomation\\Reports\\Demo\\20180223_114034\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bashah - L005401.Apttus.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="10.13.10.136"/>
+         <property name="sessionId" value="aa6e8f81-016d-4928-a037-6b7eb5196070"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/testdata" classname="Test Cases/Main Test Cases/testdata" status="PASSED">
+         <system-out><![CDATA[2018-02-23 11:40:40 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata
+
+2018-02-23 11:40:41 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data): Reading excel file with source file 'C:\Users\bashah\Documents\data.xlsx' and sheet name 'Sheet1'
+
+2018-02-23 11:40:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-23 11:40:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-23 11:40:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:40:58 - [MESSAGE][PASSED] - Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:40:58 - [TEST_STEP][PASSED] - setText: Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:40:58 - [MESSAGE][PASSED] - Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:40:58 - [TEST_STEP][PASSED] - setText: Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:40:58 - [MESSAGE][PASSED] - Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:40:58 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:40:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:40:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-23 11:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' is clicked on
+
+2018-02-23 11:41:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-23 11:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreements Home  Salesforce -/input_new' is clicked on
+
+2018-02-23 11:41:17 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:41:19 - [MESSAGE][PASSED] - All options with value '012d0000001lBoB' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:41:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:41:20 - [MESSAGE][PASSED] - All options with value '012d0000001lBoA' are selected in object 'Object Repository/Page_New Agreement Select Agreement/select_Advisory Board LetterAg'  using regular expression
+
+2018-02-23 11:41:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-23 11:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_New Agreement Select Agreement/input_save' is clicked on
+
+2018-02-23 11:41:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-23 11:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Salesforce - Unlimited Edition/input_j_id0j_id1j_id2j_id3j_id' is clicked on
+
+2018-02-23 11:41:30 - [TEST_STEP][PASSED] - setText: Text 'testagreement' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-23 11:41:31 - [MESSAGE][PASSED] - Text 'testagreement' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_Name'
+
+2018-02-23 11:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-23 11:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn' is clicked on
+
+2018-02-23 11:41:31 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:41:31 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-23 11:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Open Society Institute' is clicked on
+
+2018-02-23 11:41:34 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-23 11:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-23 11:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_1' is clicked on
+
+2018-02-23 11:41:34 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:41:34 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-23 11:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search  Salesforce - Unlimited/th_Womens Education for Advanc' is clicked on
+
+2018-02-23 11:41:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-23 11:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_2' is clicked on
+
+2018-02-23 11:41:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-23 11:41:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_lookupIconOn_3' is clicked on
+
+2018-02-23 11:41:38 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-02-23 11:41:38 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-02-23 11:41:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-23 11:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/a_US Dollar' is clicked on
+
+2018-02-23 11:41:40 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-23 11:41:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-23 11:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7Xb' is clicked on
+
+2018-02-23 11:41:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/a_2222018' is clicked on
+
+2018-02-23 11:41:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7XZ' is clicked on
+
+2018-02-23 11:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/input_00Nd0000009K7XZ' is clicked on
+
+2018-02-23 11:41:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/Page_Agreement Edit Enter Title  Sa/td_23' is clicked on
+
+2018-02-23 11:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TestAutomation/testdata/Page_Search  Salesforce - Unlimited/Page_Agreement Edit Enter Title  Sa/Page_Agreement Edit Enter Title  Sa/td_23' is clicked on
+
+2018-02-23 11:41:41 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/textarea_00Nd0000009K8Q4'
+
+2018-02-23 11:41:41 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Agreement Edit Enter Title  Sa/textarea_00Nd0000009K8Q4'
+
+2018-02-23 11:41:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_AfghanistanAland Island'  using regular expression
+
+2018-02-23 11:41:48 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_AfghanistanAland Island'  using regular expression
+
+2018-02-23 11:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_00Nd0000009K8P9_right_arro' is clicked on
+
+2018-02-23 11:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/img_00Nd0000009K8P9_right_arro' is clicked on
+
+2018-02-23 11:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/td_--None--YesNonew picklist(0' is clicked on
+
+2018-02-23 11:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/td_--None--YesNonew picklist(0' is clicked on
+
+2018-02-23 11:41:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:41:49 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:41:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:41:49 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:41:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:41:50 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo'  using regular expression
+
+2018-02-23 11:41:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:41:51 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_1'  using regular expression
+
+2018-02-23 11:41:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_2'  using regular expression
+
+2018-02-23 11:41:51 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Page_Agreement Edit Enter Title  Sa/select_--None--YesNo_2'  using regular expression
+
+2018-02-23 11:41:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_save' is clicked on
+
+2018-02-23 11:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Agreement Edit Enter Title  Sa/input_save' is clicked on
+
+2018-02-23 11:41:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-23 11:41:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/testdata" classname="Test Cases/Main Test Cases/testdata" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to locate window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070
+*** Element info: {Using=xpath, value=//a[@href = '/a64/o' and @title = 'Agreements Tab' and (text() = 'Agreements' or . = 'Agreements')]})"/>
+         <system-out><![CDATA[2018-02-23 11:41:55 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to locate window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070
+*** Element info: {Using=xpath, value=//a[@href = '/a64/o' and @title = 'Agreements Tab' and (text() = 'Agreements' or . = 'Agreements')]})
+
+2018-02-23 11:41:55 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data): Reading excel file with source file 'C:\Users\bashah\Documents\data.xlsx' and sheet name 'Sheet1'
+
+2018-02-23 11:41:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-23 11:42:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-23 11:42:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:42:09 - [MESSAGE][PASSED] - Navigate to 'https://myapplications--devfull.cs93.my.salesforce.com/' successfully
+
+2018-02-23 11:42:09 - [TEST_STEP][PASSED] - setText: Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:42:09 - [MESSAGE][PASSED] - Text 'legalowner@apttus.com.osf.devfull' is set on object 'Object Repository/Page_Login  Salesforce/input_username'
+
+2018-02-23 11:42:09 - [TEST_STEP][PASSED] - setText: Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:42:10 - [MESSAGE][PASSED] - Text 'Admin@201699' is set on object 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:42:10 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:42:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Login  Salesforce/input_pw'
+
+2018-02-23 11:42:10 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to locate window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070
+*** Element info: {Using=xpath, value=//a[@href = '/a64/o' and @title = 'Agreements Tab' and (text() = 'Agreements' or . = 'Agreements')]})
+
+2018-02-23 11:42:20 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-23 11:42:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to locate window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070
+*** Element info: {Using=xpath, value=//a[@href = '/a64/o' and @title = 'Agreements Tab' and (text() = 'Agreements' or . = 'Agreements')]})]]></system-out>
+         <system-err><![CDATA[2018-02-23 11:41:55 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to locate window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070
+*** Element info: {Using=xpath, value=//a[@href = '/a64/o' and @title = 'Agreements Tab' and (text() = 'Agreements' or . = 'Agreements')]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/testdata" classname="Test Cases/Main Test Cases/testdata" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070)"/>
+         <system-out><![CDATA[2018-02-23 11:42:20 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070)
+
+2018-02-23 11:42:20 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data): Reading excel file with source file 'C:\Users\bashah\Documents\data.xlsx' and sheet name 'Sheet1'
+
+2018-02-23 11:42:20 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070)
+
+2018-02-23 11:42:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-23 11:42:20 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070)]]></system-out>
+         <system-err><![CDATA[2018-02-23 11:42:20 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/testdata: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-23 11:40:39 - [TEST_SUITE][FAILED] - Demo: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to locate window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070
+*** Element info: {Using=xpath, value=//a[@href = '/a64/o' and @title = 'Agreements Tab' and (text() = 'Agreements' or . = 'Agreements')]})]]></system-out>
+      <system-err><![CDATA[2018-02-23 11:40:39 - [TEST_SUITE][FAILED] - Demo: Test Cases/Main Test Cases/testdata FAILED because (of) Unable to click on object 'Object Repository/Page_Salesforce - Unlimited Edition/a_Agreements' (Root cause: org.openqa.selenium.NoSuchWindowException: Unable to locate window
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'L005401', ip: '10.13.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28788, moz:profile: C:\Users\bashah\AppData\Loc..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: aa6e8f81-016d-4928-a037-6b7eb5196070
+*** Element info: {Using=xpath, value=//a[@href = '/a64/o' and @title = 'Agreements Tab' and (text() = 'Agreements' or . = 'Agreements')]})]]></system-err>
+   </testsuite>
+</testsuites>

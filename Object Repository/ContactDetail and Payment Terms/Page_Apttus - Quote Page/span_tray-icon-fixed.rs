@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_tray-icon-fixed</name>
+   <tag></tag>
+   <elementGuidId>a514aaeb-4417-43dd-831a-08d2e6cbda47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;cpq layout-fill layout-column&quot;]/main[@class=&quot;page-main flex&quot;]/div[1]/section[@class=&quot;quote-details&quot;]/div[@class=&quot;apt-extensible-component layout-row layout-1521091045268-3__custom&quot;]/div[@class=&quot;apt-container layout-row flex&quot;]/div[@class=&quot;apt-section section-1521091045268-20__internal flex draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1521091045268-19__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1521091045268-10__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component detailsView component-1521091045268-6__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/apt-details[1]/div[@class=&quot;layout-row flex&quot;]/div[@class=&quot;apt-details layout-row flex&quot;]/div[@class=&quot;apt-section section-1521091045268-9__internal flex draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1521091045268-6__internal draggable&quot;]/div[@class=&quot;section-action-vertical&quot;]/span[@class=&quot;tray-icon-fixed&quot;][count(. | //span[@class = 'tray-icon-fixed' and @ng-class = concat('{' , &quot;'&quot; , 'toggle' , &quot;'&quot; , ':!collapse}')]) = count(//span[@class = 'tray-icon-fixed' and @ng-class = concat('{' , &quot;'&quot; , 'toggle' , &quot;'&quot; , ':!collapse}')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tray-icon-fixed</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'toggle':!collapse}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;cpq layout-fill layout-column&quot;]/main[@class=&quot;page-main flex&quot;]/div[1]/section[@class=&quot;quote-details&quot;]/div[@class=&quot;apt-extensible-component layout-row layout-1521091045268-3__custom&quot;]/div[@class=&quot;apt-container layout-row flex&quot;]/div[@class=&quot;apt-section section-1521091045268-20__internal flex draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1521091045268-19__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1521091045268-10__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component detailsView component-1521091045268-6__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/apt-details[1]/div[@class=&quot;layout-row flex&quot;]/div[@class=&quot;apt-details layout-row flex&quot;]/div[@class=&quot;apt-section section-1521091045268-9__internal flex draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1521091045268-6__internal draggable&quot;]/div[@class=&quot;section-action-vertical&quot;]/span[@class=&quot;tray-icon-fixed&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

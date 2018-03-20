@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_md-datepicker-triangle-</name>
+   <tag></tag>
+   <elementGuidId>704143d6-8910-47ae-b774-0379d56c4b98</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md-datepicker-triangle-button md-icon-button md-button md-focused</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>ctrl.openCalendarPane($event)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Open calendar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;md-toast-open-top&quot;]/div[@class=&quot;cpq layout-fill layout-column&quot;]/main[@class=&quot;page-main flex&quot;]/div[1]/div[@class=&quot;quote md-inline-form layout-column&quot;]/div[@class=&quot;apt-extensible-component layout-row layout-1519712182518-3__custom&quot;]/div[@class=&quot;apt-container layout-row flex&quot;]/div[@class=&quot;apt-section section-1519712182518-8__internal flex draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component formView component-1519712182517-4__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/apt-form[1]/div[@class=&quot;layout-row flex&quot;]/form[@class=&quot;apt-form ng-pristine ng-valid-maxlength ng-invalid ng-invalid-required ng-valid-minlength ng-valid-mindate ng-valid-maxdate ng-valid-filtered ng-valid-valid ng-valid-max layout-row flex ng-invalid-apt-validation-message ng-valid-step ng-submitted&quot;]/div[@class=&quot;apt-section section-1519712182518-7__internal draggable flex&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-section section-1519712182517-0__internal draggable&quot;]/div[@class=&quot;children-inner&quot;]/div[@class=&quot;apt-component formField component-1519712182517-22__internal draggable&quot;]/div[@class=&quot;apt-fieldset&quot;]/div[@class=&quot;apt-form-field&quot;]/div[@class=&quot;input-fieldset&quot;]/apt-date-input-field[@class=&quot;inputs ng-pristine ng-untouched ng-valid ng-empty layout-column&quot;]/div[@class=&quot;layout-column&quot;]/div[@class=&quot;apt-input-container ands-datepicker-container&quot;]/div[@class=&quot;apt-input-row layout-row&quot;]/apt-date-picker[@class=&quot;ng-pristine ng-untouched ng-empty ng-valid ng-valid-required layout-row flex&quot;]/md-datepicker[@class=&quot;ands-datepicker ng-pristine _md-datepicker-has-triangle-icon ng-valid-mindate ng-valid-maxdate ng-valid-filtered ng-valid-valid ng-empty ng-invalid ng-invalid-required layout-row flex ng-valid-apt-validation-message ng-touched&quot;]/div[@class=&quot;md-datepicker-input-container md-datepicker-invalid&quot;]/button[@class=&quot;md-datepicker-triangle-button md-icon-button md-button md-focused&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

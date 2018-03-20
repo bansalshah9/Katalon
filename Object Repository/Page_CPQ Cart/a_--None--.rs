@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_--None--</name>
+   <tag></tag>
+   <elementGuidId>8cbf03b7-8521-430a-abfc-10eb1f784821</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-choice ui-select-match ng-scope select2-default</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'select2-default': $select.isEmpty()}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>$select.toggle($event)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select box select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>--None--</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>allow-clear</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--None-- 
+			
+		  </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[2]/div[@class=&quot;content-container&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;layout-single-col ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;main-cart-wrapper main-cart-wrapper--overflow ng-scope&quot;]/div[@class=&quot;main-cart-container--positioning&quot;]/div[@class=&quot;main-cart-container&quot;]/table[1]/tbody[1]/tr[@class=&quot;row line-item-row is--open prim-attr-row ng-scope&quot;]/td[@class=&quot;cell main-cart-col PICKLIST main-cart-col--picklist&quot;]/ul[@class=&quot;submenu submenu--chargelines chargelines ng-scope&quot;]/li[@class=&quot;charge-line-col charge-line-first&quot;]/div[@class=&quot;fieldtype-wrapper fieldtype-wrapper--PICKLIST&quot;]/div[@class=&quot;full-width ng-scope&quot;]/div[1]/div[@class=&quot;ng-scope&quot;]/dynamic-field[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@id=&quot;Apttus_Config2__AdjustmentType__c&quot;]/a[@class=&quot;select2-choice ui-select-match ng-scope select2-default&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

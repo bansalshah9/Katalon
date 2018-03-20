@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Firefox 58.0,,2018-02-23 11:40:39,2018-02-23 11:42:20,1m - 40.945s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/testdata,Firefox 58.0,,2018-02-23 11:40:40,2018-02-23 11:41:55,1m - 14.695s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data),Firefox 58.0,,2018-02-23 11:40:41,2018-02-23 11:40:43,1.970s,PASSED
+openBrowser,Firefox 58.0,,2018-02-23 11:40:43,2018-02-23 11:40:54,10.809s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-23 11:40:54,2018-02-23 11:40:58,4.058s,PASSED
+setText,Firefox 58.0,,2018-02-23 11:40:58,2018-02-23 11:40:58,0.191s,PASSED
+setText,Firefox 58.0,,2018-02-23 11:40:58,2018-02-23 11:40:58,0.168s,PASSED
+sendKeys,Firefox 58.0,,2018-02-23 11:40:58,2018-02-23 11:40:59,0.385s,PASSED
+click,Firefox 58.0,,2018-02-23 11:40:59,2018-02-23 11:41:16,16.938s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:16,2018-02-23 11:41:17,1.767s,PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-23 11:41:17,2018-02-23 11:41:19,1.184s,PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-23 11:41:19,2018-02-23 11:41:20,1.617s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:20,2018-02-23 11:41:27,6.436s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:27,2018-02-23 11:41:30,3.776s,PASSED
+setText,Firefox 58.0,,2018-02-23 11:41:30,2018-02-23 11:41:31,0.520s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:31,2018-02-23 11:41:31,0.448s,PASSED
+switchToWindowIndex,Firefox 58.0,,2018-02-23 11:41:31,2018-02-23 11:41:31,0.149s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:31,2018-02-23 11:41:34,2.171s,PASSED
+switchToDefaultContent,Firefox 58.0,,2018-02-23 11:41:34,2018-02-23 11:41:34,0.287s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:34,2018-02-23 11:41:34,0.408s,PASSED
+switchToWindowIndex,Firefox 58.0,,2018-02-23 11:41:34,2018-02-23 11:41:34,0.033s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:34,2018-02-23 11:41:37,2.452s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:37,2018-02-23 11:41:37,0.340s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:37,2018-02-23 11:41:38,0.455s,PASSED
+switchToWindowIndex,Firefox 58.0,,2018-02-23 11:41:38,2018-02-23 11:41:38,0.059s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:38,2018-02-23 11:41:40,1.964s,PASSED
+switchToDefaultContent,Firefox 58.0,,2018-02-23 11:41:40,2018-02-23 11:41:40,0.044s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:40,2018-02-23 11:41:40,0.322s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:40,2018-02-23 11:41:40,0.302s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:40,2018-02-23 11:41:41,0.316s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:41,2018-02-23 11:41:41,0.316s,PASSED
+setText,Firefox 58.0,,2018-02-23 11:41:41,2018-02-23 11:41:41,0.080s,PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-23 11:41:41,2018-02-23 11:41:48,6.573s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:48,2018-02-23 11:41:48,0.347s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:48,2018-02-23 11:41:48,0.254s,PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-23 11:41:48,2018-02-23 11:41:49,0.452s,PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-23 11:41:49,2018-02-23 11:41:49,0.439s,PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-23 11:41:49,2018-02-23 11:41:50,0.631s,PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-23 11:41:50,2018-02-23 11:41:51,0.906s,PASSED
+selectOptionByValue,Firefox 58.0,,2018-02-23 11:41:51,2018-02-23 11:41:51,0.479s,PASSED
+click,Firefox 58.0,,2018-02-23 11:41:51,2018-02-23 11:41:54,3.017s,PASSED
+closeBrowser,Firefox 58.0,,2018-02-23 11:41:54,2018-02-23 11:41:55,0.732s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/testdata,Firefox 58.0,,2018-02-23 11:41:55,2018-02-23 11:42:20,25.102s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data),Firefox 58.0,,2018-02-23 11:41:55,2018-02-23 11:41:55,0.076s,PASSED
+openBrowser,Firefox 58.0,,2018-02-23 11:41:55,2018-02-23 11:42:04,9.433s,PASSED
+navigateToUrl,Firefox 58.0,,2018-02-23 11:42:04,2018-02-23 11:42:09,4.086s,PASSED
+setText,Firefox 58.0,,2018-02-23 11:42:09,2018-02-23 11:42:09,0.884s,PASSED
+setText,Firefox 58.0,,2018-02-23 11:42:09,2018-02-23 11:42:10,0.534s,PASSED
+sendKeys,Firefox 58.0,,2018-02-23 11:42:10,2018-02-23 11:42:10,0.129s,PASSED
+click,Firefox 58.0,,2018-02-23 11:42:10,2018-02-23 11:42:20,9.845s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/testdata,Firefox 58.0,,2018-02-23 11:42:20,2018-02-23 11:42:20,0.337s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(data),Firefox 58.0,,2018-02-23 11:42:20,2018-02-23 11:42:20,0.060s,PASSED
+openBrowser,Firefox 58.0,,2018-02-23 11:42:20,2018-02-23 11:42:20,0.173s,FAILED

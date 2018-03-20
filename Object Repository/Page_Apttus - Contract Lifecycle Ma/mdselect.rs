@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mdselect</name>
+   <tag></tag>
+   <elementGuidId>de844550-d9cb-4947-8dcb-1baa5df06cfe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>md-option#select_option_791</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>.//md-option[@id='select_option_791']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

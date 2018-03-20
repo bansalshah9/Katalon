@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Demo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-02-26T11:47:47</lastRun>
+   <mailRecipient>bashah@apttus.com;</mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>88ba7651-6984-496d-99ec-2514064ce842</testSuiteGuid>
+   <testCaseLink>
+      <guid>51e93284-73fb-4c08-97eb-e4648b3541aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/testdata</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>ceff86db-1073-4bb8-aa8f-8d6745ffe69a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ceff86db-1073-4bb8-aa8f-8d6745ffe69a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>demo_usn</value>
+         <variableId>0c07d50f-6589-4b31-b106-9d891a0ff4ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ceff86db-1073-4bb8-aa8f-8d6745ffe69a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>demo_pwd</value>
+         <variableId>9e4284b0-5158-4b02-b52b-72281ddaf365</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ceff86db-1073-4bb8-aa8f-8d6745ffe69a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>agreement_name</value>
+         <variableId>a33829c4-b20e-41a3-81fb-728de4024738</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
