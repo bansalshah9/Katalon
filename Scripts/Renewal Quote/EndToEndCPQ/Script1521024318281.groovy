@@ -275,6 +275,8 @@ WebUI.verifyEqual('In Authoring | Author Contract', statusAuthoring)
 WebUI.delay(5)*/
 WebUI.closeBrowser()
 
+WebUI.delay(5)
+
 def TCVValue(def basePrice, def quantity1, def sellingTerm, def TCVlineitem) {
     TCVText = TCVlineitem
 
